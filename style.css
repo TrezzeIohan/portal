@@ -16859,3 +16859,21 @@ label.checkbox { padding-left: 20px; }
 hr.customhr{
 	background-color: #000 !important;
 }
+
+.prop-conteudo{
+	object-fit: cover;
+	max-height: 260px;
+	width: 100%;
+}
+
+.bg-prop{
+	background-color: #ddd;
+}
+
+.trapezoide-ver{
+	width: 55%;
+    height: 0;
+    border-right: 20px solid transparent;
+    border-bottom: 28px solid #CF2525;
+    position: relative;
+}
