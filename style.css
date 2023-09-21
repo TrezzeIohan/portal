@@ -180,7 +180,7 @@ body {
 
 a {
 	text-decoration: none !important;
-	color: #c98702;
+	color: #f6f6f6;
 }
 
 a:hover { color: #926305; }
@@ -207,9 +207,9 @@ h3,
 h4,
 h5,
 h6 {
-	color: #c98702;
+	color: #181818;
 	font-weight: 600;
-	line-height: 1.5;
+	line-height: 1.2;
 	margin: 0 0 30px 0;
 	font-family: 'Poppins', sans-serif;
 }
@@ -273,7 +273,7 @@ table,
 fieldset,
 form { margin-bottom: 30px; }
 
-small { font-family: 'Lato', sans-serif; }
+small { font-family: 'Roboto', sans-serif; }
 
 
 @media (max-width: 1200px) {
@@ -3147,14 +3147,14 @@ html[xmlns] .slider-wrap {
 
 #header {
 	/*position: relative;*/
-	background-color: #333;
+	background-color: #005398;
 	position: static;
 	
 }
 
 #header-wrap {
 	position: relative;
-	background-color: #333;
+	background-color: #005398;
 	width: 100%;
 }
 
@@ -3362,8 +3362,8 @@ html[xmlns] .slider-wrap {
 		top: 0;
 		left: 0;
 		z-index: 299;
-		background-color: #FFF;
-		border-bottom: 1px solid #EEE;
+		
+		
 		-webkit-transform: translateZ(0);
 		-webkit-backface-visibility: hidden;
 	}
@@ -3423,11 +3423,11 @@ html[xmlns] .slider-wrap {
 }
 
 .header-size-sm #header-wrap #logo img {
-	height: 70px;
+	height: 40px;
 }
 
 .header-size-md #header-wrap #logo img {
-	height: 80px;
+	height: 40px;
 }
 
 .header-size-lg #header-wrap #logo img {
@@ -3577,7 +3577,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 .svg-trigger path {
 	fill: none;
 	transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-	stroke: #c98702;
+	stroke: #f6f6f6;
 	stroke-width: 5;
 	stroke-linecap:round;
 }
@@ -3646,7 +3646,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 
 .menu-item:hover > .menu-link,
 .menu-item.current > .menu-link {
-	color: #c98702;
+	color: #ECB831;
 }
 
 .menu-item.sub-menu > .menu-link > div { }
@@ -4800,7 +4800,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	font-size: 1.125rem;
 	line-height: 20px;
 	text-align: center;
-	color: #c98702;
+	color: #f6f6f6;
 	-webkit-transition: color .3s ease-in-out;
 	-o-transition: color .3s ease-in-out;
 	transition: color .3s ease-in-out;
@@ -16821,4 +16821,33 @@ label.checkbox { padding-left: 20px; }
 
 .product-label{
 	color: #333 !important;
+}
+
+.bg-rblue{
+	background-color: #005398 !important;
+}
+
+
+.prop-retangulo{
+	height: 10vh;
+	width: 100%;
+}
+
+.trapezoide{
+	width: 55%;
+    height: 0;
+    border-right: 20px solid transparent;
+    border-bottom: 28px solid #005398;
+    position: relative;
+}
+
+.text-trapezoide{
+	position: relative;
+	bottom: 1px;
+	left: 5px;
+    color: white;
+}
+
+.black{
+	font-weight: 900;
 }

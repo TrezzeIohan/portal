@@ -25,6 +25,11 @@
 	<link rel="stylesheet" href="css/custom.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
+	<!-- Google Fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+
 	
 
 	<!-- Bootstrap
@@ -34,7 +39,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>SVeículos</title>
+	<title>Portal de Sarzedo</title>
 
 </head>
 
@@ -44,76 +49,18 @@
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
-		<div class="modal-on-load" data-target="#myModal1"></div>
-
-		<!-- On LOad Modal -->
-		<div class="modal1 mfp-hide subscribe-widget mx-auto" id="myModal1" style="max-width: 750px;">
-			<div class="row justify-content-center bg-white align-items-center" style="min-height: 380px;">
-				<div class="col-md-5 p-0">
-					<div style="background: url('images/sveiculos/pais.jpg') no-repeat center right; background-size: cover;  min-height: 430px;"></div>
-				</div>
-				<div class="col-md-7 bg-white p-4">
-					<div class="heading-block border-bottom-0 mb-3">
-						<h3 class="font-secondary nott ">Promoção imperdível de dia dos pais. <span class="text-danger">20%</span> de desconto.</h3>
-						<span>Não perca nossas ofertas. Se inscreva para nossa Newsletter.</span>
-					</div>
-					<div class="widget-subscribe-form-result"></div>
-					<form class="widget-subscribe-form2 mb-2" action="registrar.html" method="post">
-						<input type="email" id="widget-subscribe-form2-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Digite seu email">
-						<div class="d-flex justify-content-between align-items-center mt-1">
-							<button class="button button-dark  bg-dark text-white ms-0" type="submit">Inscrever</button>
-							<a href="#" class="btn-link" onClick="$.magnificPopup.close();return false;">Não me mostrar</a>
-						</div>
-					</form>
-					<small class="mb-0 fst-italic text-black-50">*Nós somos contra Span e não enviaremos nada além do útil e necessário para você.</small>
-				</div>
-			</div>
-		</div>
-
-		<!-- Login Modal -->
-		<div class="modal1 mfp-hide" id="modal-register">
-			<div class="card mx-auto" style="max-width: 540px;">
-				<div class="card-header py-3 bg-transparent center">
-					<h3 class="mb-0 fw-normal">Olá, bem vindo de volta!</h3>
-				</div>
-				<div class="card-body mx-auto py-5" style="max-width: 70%;">
-					<form id="login-form" name="login-form" class="mb-0 row" action="perfil-vendedor.html" method="post">
-
-						<div class="col-12">
-							<input type="text" id="login-form-username" name="login-form-username" value="" class="form-control not-dark" placeholder="Email" />
-						</div>
-
-						<div class="col-12 mt-4">
-							<input type="password" id="login-form-password" name="login-form-password" value="" class="form-control not-dark" placeholder="Senha" />
-						</div>
-
-						<div class="col-12">
-							<a href="#" class="float-end text-dark fw-light mt-2">Esqueceu sua Senha?</a>
-						</div>
-
-						<div class="col-12 mt-4">
-							<button class="button w-100 m-0" id="login-form-submit" name="login-form-submit" value="login">Login</button>
-						</div>
-					</form>
-				</div>
-				<div class="card-footer py-4 center">
-					<p class="mb-0">Ainda não tem uma conta? <a href="registrar.html"><u>Inscrever</u></a></p>
-				</div>
-			</div>
-		</div>
-
 		<!-- Header
 		============================================= -->
-		<header id="header" class="full-header header-size-sm" data-sticky-shrink="false">
-			<div id="header-wrap">
-				<div class="container">
+		<header id="header" class="full-header header-size-sm bg-rblue" data-sticky-shrink="false" data-mobile-sticky="true">
+			<div id="header-wrap" class="bg-rblue">
+				<div class="container bg-rblue">
 					<div class="header-row justify-content-lg-between">
 
 						<!-- Logo
 						============================================= -->
 						<div id="logo" class="me-lg-4">
-							<a href="index.html" class="standard-logo"><img src="images/sveiculos/logo.png" alt="Logo SVeiculos"></a>
-							<a href="index.html" class="retina-logo"><img src="images/sveiculos/logo.png" alt="Logo SVeiculos"></a>
+							<a href="index.html" class="standard-logo"><img src="images/portal/logo-portal.png" alt="Logo Portal"></a>
+							<a href="index.html" class="retina-logo"><img src="images/portal/logo-portal.png" alt="Logo Portal"></a>
 						</div><!-- #logo end -->
 
 						<div class="header-misc">
@@ -144,14 +91,14 @@
 
 							<ul class="menu-container">
 								<li class="menu-item current"><a class="menu-link" href="#"><div>Home</div></a></li>
-								<li class="menu-item mega-menu"><a class="menu-link" href="produtos.html"><div>Catálogo</div></a></li>
+								<li class="menu-item mega-menu"><a class="menu-link" href="produtos.html"><div>Nossa Cidade</div></a></li>
 								
-								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="contato.html"><div>Fale Conosco</div></a>									
+								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="contato.html"><div>Destaques Locais</div></a>									
 								</li>
 
-								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="perfil_comprador.html"><div>Quero Comprar</div></a>									
+								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="perfil_comprador.html"><div>Conteúdo</div></a>									
 								</li>
-								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="perfil-vendedor.html"><div>Quero Vender</div></a>									
+								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="perfil-vendedor.html"><div>Institucional</div></a>									
 								</li>
 								
 													
@@ -169,243 +116,40 @@
 			<div class="header-wrap-clone"></div>
 		</header><!-- #header end -->
 
-		<!-- Banner Promocional
-		============================================= -->
-		<section id="slider" class="slider-element swiper_wrapper" data-autoplay="6000" data-speed="800" data-loop="true" data-grab="true" data-effect="fade" data-arrow="false" style="height: 600px;">
-
-			<div class="swiper-container swiper-parent">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide dark">
-						<div class="container">
-							<div class="slider-caption slider-caption-center">
-								<div>
-									<div class="h5 mb-2 font-secondary">Oferta em Destaque</div>
-									<h2 class="bottommargin-sm text-white">Carro Vermelho</h2>
-									<a href="#" class="button bg-white text-dark button-light">Acompanhe</a>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide-bg" style="background-image: url('images/sveiculos/carro-vermelho.jpg'); background-color: rgba(43, 43, 43, 0.452);
-						background-blend-mode: multiply;
-						padding: 15%;"></div>
-					</div>
-					<div class="swiper-slide dark">
-						<div class="container">
-							<div class="slider-caption slider-caption-center">
-								<div>
-									<div class="h5 mb-2 font-secondary">Promoção</div>
-									<h2 class="bottommargin-sm text-white">Dia dos Pais</h2>
-									<a href="#" class="button bg-white text-dark button-light">Conheça</a>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide-bg" style="background-image: url('images/sveiculos/carro-3.jpg'); background-position: center 20%;  background-color: rgba(43, 43, 43, 0.452);
-						background-blend-mode: multiply;
-						padding: 15%;"></div>
-					</div>
-					<div class="swiper-slide dark">
-						<div class="container">
-							<div class="slider-caption slider-caption-center">
-								<div>
-									<h2 class="bottommargin-sm text-white">Varejo</h2>
-									<a href="#" class="button bg-white text-dark button-light">Ofertas Imperdíveis</a>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide-bg" style="background-image: url('images/sveiculos/carro-2.jpg'); background-position: center 40%;  background-color: rgba(43, 43, 43, 0.452);
-						background-blend-mode: multiply;
-						padding: 15%;"></div>
-					</div>
-				</div>
-				<div class="swiper-pagination"></div>
-			</div>
-
-		</section><!-- #Slider End -->
+		
 
 		<!-- Content
 		============================================= -->
 		<section id="content">
-			<div class="content-wrap">
+			<div class="content-wrap p-0">
 				<div class="container clearfix">
 
-					<!-- Shop Categories
+					<!-- Propaganda Retangular
 					============================================= -->
+					<div class="row d-flex align-items-center justify-content-center clearfix">
+						<div class="col-12 m-3">
+							<img src="images/portal/retangulo-prop.jpg" alt="" class="prop-retangulo">
+						</div>
 
-					<div class="row shop-categories clearfix">
-						<div class="col-lg-7">
-							<a href="produtos.html" style="background: url('images/sveiculos/carro-ofertas.jpg') no-repeat right center; background-size: cover;  background-position: center 40%;  background-color: rgba(43, 43, 43, 0.452);
-							background-blend-mode: multiply;
-							padding: 15%;">
-								<div class="vertical-middle dark center">
-									<div class="heading-block m-0 border-0">
-										<h3 class="nott fw-semibold ls0">Ofertas Imperdíveis</h3>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-lg-5">
-							<a href="produtos.html" style="background: url('images/sveiculos/carro-leiloes.jpg') no-repeat right center; background-size: cover;  background-position: center 40%;  background-color: rgba(43, 43, 43, 0.452);
-							background-blend-mode: multiply;
-							padding: 15%;">
-								<div class="vertical-middle dark center">
-									<div class="heading-block m-0 border-0">
-										<h3 class="nott fw-semibold ls0">Concursos de Ofertas</h3>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-lg-4">
-							<a href="produtos.html" style="background: url('images/sveiculos/suv.jpg') no-repeat center center; background-size: cover;  background-position: center 40%;  background-color: rgba(43, 43, 43, 0.452);
-							background-blend-mode: multiply;
-							padding: 15%;">
-								<div class="vertical-middle dark center">
-									<div class="heading-block m-0 border-0">
-										<h3 class="nott fw-semibold ls0">SUVs</h3>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-lg-4">
-							<a href="produtos.html" style="background: url('images/sveiculos/sedan.jpg') no-repeat center center; background-size: cover;  background-position: center 40%;  background-color: rgba(43, 43, 43, 0.452);
-							background-blend-mode: multiply;
-							padding: 15%;">
-								<div class="vertical-middle dark center">
-									<div class="heading-block m-0 border-0">
-										<h3 class="nott fw-semibold ls0">Sedans</h3>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-lg-4">
-							<a href="produtos.html" style="background: url('images/sveiculos/moto.jpg') no-repeat center center; background-size: cover;  background-position: center 40%;  background-color: rgba(43, 43, 43, 0.452);
-							background-blend-mode: multiply;
-							padding: 15%;">
-								<div class="vertical-middle dark center">
-									<div class="heading-block m-0 border-0">
-										<h3 class="nott fw-semibold ls0">Motos</h3>
-									</div>
-								</div>
-							</a>
-						</div>
 					</div>
 
-					<!-- Featured Carousel
+
+					<!-- Notícia Prncipal
 					============================================= -->
-					<div class="fancy-title title-border mt-4 title-center">
-						<h4>Novidades da Sveículos</h4>
+					<div class="row clearfix">
+						<div class="col-lg-12 p-0">
+							<div class="trapezoide ">
+								<p class="text-white text-trapezoide m-0">Notícia</p>
+							</div>
+							<div class="col-lg-10 p-2">
+								<h1 class="black">Prefeitura de Sarzedo abrirá mais de 100 vagas para concurso público</h1>
+								<p>Prefeitura autorizou mais de 100 vagas para concursos de ensino técnico, médio 
+									e superior na área de segurança pública.</p>
+							</div>
+						</div>							
 					</div>
 
-					<div id="oc-products" class="owl-carousel products-carousel carousel-widget" data-margin="20" data-loop="true" data-autoplay="5000" data-nav="true" data-pagi="false" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="4" data-items-xl="5">
-
-						<!-- Shop Item 1
-						============================================= -->
-						<div class="oc-item">
-							<div class="product">
-								<div class="product-image">
-									<div class="fslider" data-arrows="false" data-autoplay="4500">
-										<div class="flexslider">
-											<div class="slider-wrap">
-												<div class="slide"><a href="#"><img src="images/sveiculos/sedan-1.jpg" alt="bmw-1"></a></div>
-												
-											</div>
-										</div>
-									</div>	
-								</div>
-								<div class="sale-flash badge bg-danger p-2">Concurso de Oferta</div>
-								<div class="product-desc">
-									<div class="product-title mb-1"><h3><a href="#">BMW</a></h3></div>
-									<div class="product-price font-primary">Lance Atual: <br> <ins>R$210.000,00</ins></div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Shop Item 2
-						============================================= -->
-						<div class="oc-item">
-							<div class="product">
-								<div class="product-image">
-									<a href="#"><img src="images/sveiculos/moto-2.jpg" alt="BMW"></a>
 									
-									<div class="sale-flash badge bg-danger p-2">Importados</div>
-									
-								</div>
-								<div class="product-desc">
-									<div class="product-title mb-1"><h3><a href="#">Moto</a></h3></div>
-									<div class="product-price font-primary"><ins>R$34.000,00</ins></div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Shop Item 3
-						============================================= -->
-						<div class="oc-item">
-							<div class="product">
-								<div class="product-image">
-									<div class="fslider" data-arrows="false" data-autoplay="4500">
-										<div class="flexslider">
-											<div class="slider-wrap">
-												<div class="slide"><a href="#"><img src="images/sveiculos/harley-1.jpg" alt="Harley Davidson-1"></a></div>
-												<div class="slide"><a href="#"><img src="images/sveiculos/harley-2.jpg" alt="Harley Davidson-2"></a></div>
-												<div class="slide"><a href="#"><img src="images/sveiculos/harley-3.jpg" alt="Harley Davidson-3"></a></div>
-											</div>
-										</div>
-									</div>
-									
-								</div>
-								<div class="sale-flash badge bg-danger p-2">Por Tempo Limitado</div>
-								<div class="product-desc">
-									<div class="product-title mb-1"><h3><a href="#">BMW</a></h3></div>
-									<div class="product-price font-primary"> <ins>R$21.000,00</ins></div>
-								</div>
-							</div>
-						</div>		
-
-						<!-- Shop Item 4
-						============================================= -->
-						<div class="oc-item">
-							<div class="product">
-								<div class="product-image">
-									<div class="fslider" data-arrows="false" data-autoplay="4500">
-										<div class="flexslider">
-											<div class="slider-wrap">
-												<div class="slide"><a href="#"><img src="images/sveiculos/bmw-1.jpg" alt="bmw-1"></a></div>
-												<div class="slide"><a href="#"><img src="images/sveiculos/bmw-2.jpg" alt="bmw-2"></a></div>
-												<div class="slide"><a href="#"><img src="images/sveiculos/bmw-3.jpg" alt="bmw-3"></a></div>
-											</div>
-										</div>
-									</div>
-									
-								</div>
-								<div class="sale-flash badge bg-danger p-2">Concurso de Oferta</div>
-								<div class="product-desc">
-									<div class="product-title mb-1"><h3><a href="#">BMW</a></h3></div>
-									<div class="product-price font-primary">Lance Atual: <br> <ins>R$210.000,00</ins></div>
-								</div>
-							</div>
-						</div>
-						<!-- Shop Item 5
-						============================================= -->
-						<div class="oc-item">
-							<div class="product">
-								<div class="product-image">
-									<div class="fslider" data-arrows="false" data-autoplay="4500">
-										<div class="flexslider">
-											<div class="slider-wrap">
-												<div class="slide"><a href="#"><img src="images/sveiculos/moto-3.jpg" alt="bike"></a></div>
-											</div>
-										</div>
-									</div>
-									
-								</div>
-								<div class="sale-flash badge bg-danger p-2">Concurso de Oferta</div>
-								<div class="product-desc">
-									<div class="product-title mb-1"><h3><a href="#">Moto</a></h3></div>
-									<div class="product-price font-primary">Lance Atual: <br> <ins>R$210.000,00</ins></div>
-								</div>
-							</div>
-						</div>				
-					</div>
-				
 
 				</div>
 

@@ -12,7 +12,7 @@ small,
 .fbox-center.fbox-italic p,
 .skills li .progress-percent .counter,
 .nav-tree ul ul a,
-.font-body { font-family: 'Lato', sans-serif !important; }
+.font-body { font-family: 'Roboto', sans-serif !important; }
 
 
 h1,
@@ -35,7 +35,7 @@ label,
 .widget-filter-links li a,
 .nav-tree li a,
 .wedding-head,
-.font-primary { font-family: 'Poppins', sans-serif !important; }
+.font-primary { font-family: 'Roboto', sans-serif !important; }
 
 
 .entry-link span,
@@ -49,5 +49,5 @@ label,
 .before-heading,
 .wedding-head .first-name span,
 .wedding-head .last-name span,
-.font-secondary { font-family: 'PT Serif', serif !important; }
+.font-secondary { font-family: 'Roboto', serif !important; }
 
