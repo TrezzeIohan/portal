@@ -171,7 +171,7 @@ ul.iconlist i {
 
 .widget .list-unstyled li { margin-bottom: 3px; }
 
-.widget .list-unstyled li a { color: #888 !important; }
+.widget .list-unstyled li a { color: #fff !important; }
 
 .shop-footer-features h5 a:hover {
 	color: #bbb;

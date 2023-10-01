@@ -14308,7 +14308,7 @@ body:not(.device-touch) #gotoTop {
 
 #footer {
 	position: relative;
-	background-color: #333;
+	background-color: #005398;
 	border-top: 5px solid rgba(0,0,0,0.2);
 }
 
@@ -14339,7 +14339,7 @@ body:not(.device-touch) #gotoTop {
 
 #copyrights {
 	padding: 40px 0;
-	background-color: #333;
+	background-color: #005398;
 	font-size: 0.875rem;
 	line-height: 1.8;
 }
@@ -16876,4 +16876,23 @@ hr.customhr{
     border-right: 20px solid transparent;
     border-bottom: 28px solid #CF2525;
     position: relative;
+}
+
+.img-conteudo{
+	object-fit: cover;
+	max-height: 400px;
+	width: 100%;
+}
+
+.btn-vermais{
+	padding: 00.55rem 5rem;
+	background-color: #005398 !important;
+}
+
+.btn-vermais:hover{
+	background-color: #00315b !important;
+}
+
+.txt-white{
+	color: #fff !important;
 }
