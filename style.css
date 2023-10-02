@@ -16896,3 +16896,31 @@ hr.customhr{
 .txt-white{
 	color: #fff !important;
 }
+
+.bg-rb{
+	background-color: #005398 !important;
+}
+
+.btn-rb {
+	color: #fff !important;
+	background-color: #005398;
+	border-color: #005398;
+  }
+
+.btn-rb:hover {
+	color: #fff !important;
+	background-color: #004279;
+	border-color: #004279;
+  }
+
+  .white-hover:hover {
+	color: #fff;
+  }
+
+.huge{
+	font-size: 4.5rem !important;
+}
+
+.serif{
+	font-family: 'Playfair Display', serif !important;
+}
