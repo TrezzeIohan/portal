@@ -183,7 +183,7 @@ a {
 	color: #f6f6f6;
 }
 
-a:hover { color: #926305; }
+a:hover { color: #ECB831; }
 
 a img { border: none; }
 
@@ -16808,7 +16808,7 @@ label.checkbox { padding-left: 20px; }
 }
 
 #top-search-trigger:hover{
-	color: #926305;
+	color: #ECB831;
 }
 
 .logo120{
@@ -16918,9 +16918,16 @@ hr.customhr{
   }
 
 .huge{
-	font-size: 4.5rem !important;
+	font-size: 3.6rem !important;
 }
 
 .serif{
 	font-family: 'Playfair Display', serif !important;
 }
+
+
+
+.bg-red{
+	background-color: #b40000 !important;
+}
+

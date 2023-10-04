@@ -1,0 +1,46 @@
+.owl-dot{
+    background-color: #b40000 !important;
+}
+
+.btn-lnd1{
+	background-color: transparent;
+	border: 2px solid white;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.btn-lnd1:hover{
+	color: #fff !important;
+}
+
+.btn-lnd1-red{
+    background-color: transparent;
+	border: 2px solid #b40000 !important;
+	color: #b40000 !important;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.btn-lnd1-red-f{
+	background-color: #b40000;
+	border: 2px solid #b40000 !important;
+	color: #fff !important;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	
+	margin: 4px 2px;
+	cursor: pointer;
+}
