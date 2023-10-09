@@ -44,3 +44,8 @@
 	margin: 4px 2px;
 	cursor: pointer;
 }
+
+.max-width-90{
+	max-width: 90%;
+}
+
