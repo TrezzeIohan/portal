@@ -1,3 +1,23 @@
 .tp-kbimg{
 	filter: brightness(50%);
 }
+
+#header{
+	background-color: #fff;
+}
+
+#header-wrap{
+	background-color: #fff;
+}
+
+.sticky-header #header-wrap{
+	background-color: #fff;
+}
+
+.menu-item:hover > .menu-link, .menu-item.current > .menu-link {
+	color: #b40000;
+}
+
+.menu-link{
+	color: #b40000;
+}
