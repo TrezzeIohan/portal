@@ -1,0 +1,128 @@
+#copy-text{
+	color: #999;
+}
+
+#top-search-trigger:hover{
+	color: #ECB831;
+}
+
+.logo120{
+	height: 120px;
+}
+
+#search:focus{
+	color: #fff;
+}
+
+.product-label{
+	color: #333 !important;
+}
+
+.bg-rblue{
+	background-color: #005398 !important;
+}
+
+
+.prop-retangulo{
+	height: 10vh;
+	width: 100%;
+}
+
+.trapezoide{
+	width: 55%;
+    height: 0;
+    border-right: 20px solid transparent;
+    border-bottom: 28px solid #005398;
+    position: relative;
+}
+
+.text-trapezoide{
+	position: relative;
+	bottom: -4px;
+	left: 5px;
+    color: white;
+}
+
+.black{
+	font-weight: 900;
+}
+
+.subtexto{
+	color: #5a5a5a !important;
+}
+
+hr.customhr{
+	background-color: #000 !important;
+}
+
+.prop-conteudo{
+	object-fit: cover;
+	max-height: 260px;
+	width: 100%;
+}
+
+.bg-prop{
+	background-color: #ddd;
+}
+
+.trapezoide-ver{
+	width: 55%;
+    height: 0;
+    border-right: 20px solid transparent;
+    border-bottom: 28px solid #CF2525;
+    position: relative;
+}
+
+.img-conteudo{
+	object-fit: cover;
+	max-height: 400px;
+	width: 100%;
+}
+
+.btn-vermais{
+	padding: 00.55rem 5rem;
+	background-color: #005398 !important;
+}
+
+.btn-vermais:hover{
+	background-color: #00315b !important;
+}
+
+.txt-white{
+	color: #fff !important;
+}
+
+.bg-rb{
+	background-color: #005398 !important;
+}
+
+.btn-rb {
+	color: #fff !important;
+	background-color: #005398;
+	border-color: #005398;
+  }
+
+.btn-rb:hover {
+	color: #fff !important;
+	background-color: #004279;
+	border-color: #004279;
+  }
+
+  .white-hover:hover {
+	color: #fff;
+  }
+
+.huge{
+	font-size: 2.5rem !important;
+}
+
+.serif{
+	font-family: 'Playfair Display', serif !important;
+}
+
+
+
+.bg-red{
+	background-color: #b40000 !important;
+}
+
