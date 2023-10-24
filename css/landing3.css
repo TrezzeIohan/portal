@@ -13,3 +13,7 @@
 .header-extras li .he-text span{
     color: #333;
 }
+
+.svg-trigger path {
+	stroke: #333;
+}

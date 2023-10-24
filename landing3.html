@@ -147,29 +147,11 @@
 						<nav class="primary-menu with-arrows">
 
 							<ul class="menu-container">
-								<li class="menu-item current"><a class="menu-link" href="demo-construction.html"><div>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-construction-services.html"><div>What we do</div></a>
-									<ul class="sub-menu-container">
-										<li class="menu-item"><a class="menu-link" href="#"><div>Housing Management</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="#"><div>Construction Planning</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="#"><div>Green Homes</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="#"><div>Architecture Design</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="#"><div>Interior Planning</div></a></li>
-									</ul>
-								</li>
-								<li class="menu-item"><a class="menu-link" href="demo-construction-about-us.html"><div>About Us</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-construction-projects.html"><div>Projects</div></a>
-									<ul class="sub-menu-container">
-										<li class="menu-item"><a class="menu-link" href="demo-construction-projects-2.html"><div>2 Columns</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-construction-projects-3.html"><div>3 Columns</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-construction-projects.html"><div>4 Columns</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-construction-projects-5.html"><div>5 Columns</div></a></li>
-									</ul>
-								</li>
-								<li class="menu-item"><a class="menu-link" href="demo-construction-investors.html"><div>Investors</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-construction-blog.html"><div>News</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-construction-careers.html"><div>Careers</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-construction-contact.html"><div>Contact</div></a></li>
+								<li class="menu-item current"><a class="menu-link" href="demo-construction.html"><div>Portal de Sarzedo</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#slider"><div>Sobre Nós</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#nosso-lema"><div>Nosso Lema</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#projetos"><div>Projetos</div></a></li>
+								<li class="menu-item"><a class="menu-link" href=""><div>Contato</div></a></li>
 							</ul>
 
 						</nav><!-- #primary-menu end -->
@@ -262,7 +244,9 @@
 					</div>
 				</div>
 
-				<div class="container clearfix">
+				<!-- Sobre Nós
+				===================================== -->
+				<div class="container clearfix" >
 
 					<div class="row justify-content-center col-mb-50">
 						<div class="col-sm-6 col-lg-4">
@@ -317,7 +301,7 @@
 					
 				<!-- Vídeo
 				========================== -->
-				<div class="section dark bottommargin-lg d-flex" style="height: 500px;">
+				<div class="section dark bottommargin-lg d-flex" style="height: 500px;" id="nosso-lema">
 					<div class="vertical-middle">
 						<div class="container-fluid center">
 							<i class="i-plain i-xlarge icon-house-user mx-auto" data-animate="fadeInDown"></i>
@@ -388,7 +372,7 @@
 				
 				<!-- Portfólio
 				============================ -->
-				<div class="section pt-0 mb-0">
+				<div class="section pt-0 mb-0" id="projetos">
 					<h2 class="center mb-0 ls1">Alguns dos Projetos que Participamos:</h2>
 				</div>
 
@@ -584,7 +568,6 @@
 							<div class="col-lg-5 topmargin-sm">
 								<div class="heading-block border-bottom-0">
 									<h2>Você está em boas mãos.</h2>
-									<span class="ls1">O que nos Define</span>
 								</div>
 
 								<ul class="iconlist iconlist-large iconlist-color">
@@ -614,19 +597,20 @@
 
 					<div class="row col-mb-30">
 
-						<div class="col-md-4 text-center text-md-start d-flex flex-column justify-content-center">
+						<div class="col-md-4 text-center text-md-start d-flex flex-column">
 							Copyrights &copy; 2023 - Portal de Sarzedo<br>
 							<div class="copyright-links"><a href="#">Portal de Sarzedo</a> / <a href="#">Site13</a></div>
 						</div>
 						
-						<div class="col-md-4 d-flex flex-column align-items-center">
+						<div class="col-md-5 d-flex align-items-center">
+							<img src="images/portal/logo-portal.png" alt="" class="logo-portal-footer me-4">
 							<div class="white-section">
 								<label>Avalie este comerciante:</label>
 								<input id="input-5" type="number" class="rating" data-symbol="&#xe667;" max="5" data-stars="5" data-size="xs" data-default-caption="{rating} Hits" data-star-captions="{}">
 							</div>
 						</div>
 								
-						<div class="col-md-4 text-center text-md-end d-flex align-items-center justify-content-end">
+						<div class="col-md-3 text-center text-md-end d-flex justify-content-end">
 							<div class="d-flex justify-content-center justify-content-md-end">
 								<a href="#" class="social-icon si-small si-borderless si-facebook">
 									<i class="icon-facebook"></i>
@@ -676,6 +660,9 @@
 	<!-- Star Rating Plugin -->
 	<script src="js/components/star-rating.js"></script>
 
+	<!-- JS para rolagem suave com clickem link para sessão da mesma página-->
+	<script src="js/smooth-scroll.js"></script>
+
 	<script>
 
 		$("#input-7").rating({
@@ -713,6 +700,8 @@
 		});
 
 	</script>
+
+	
 
 
 	
