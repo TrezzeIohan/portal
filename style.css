@@ -4905,16 +4905,16 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 }
 
 .top-search-form input::-moz-placeholder {
-	color: #555;
+	color: #f3f3f3;
 	opacity: 1;
 	text-transform: uppercase;
 }
 .top-search-form input:-ms-input-placeholder {
-	color: #555;
+	color: #f3f3f3;;
 	text-transform: uppercase;
 }
 .top-search-form input::-webkit-input-placeholder {
-	color: #555;
+	color: #f3f3f3;;
 	text-transform: uppercase;
 }
 
@@ -16801,8 +16801,31 @@ label.checkbox { padding-left: 20px; }
 	animation-name: fadeOutUpSmall;
 }
 
-
+/* Adicionado*/
 
 .logo-portal-footer{
 	max-width: 48px;
+}
+
+/*Whatsapp color #25D366s*/
+.whatsapp-green{
+	color: #00B343  !important;
+}
+
+
+.text-white-lead{
+	color: #f2f5f6 !important;
+}
+
+.btn-eventos{
+	background-color: #0a58ca;
+	color: white;
+	transition-timing-function: ease-in;
+	transition-duration: 1s;
+
+}
+
+.btn-eventos:hover{
+	background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+	color: white;
 }

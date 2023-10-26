@@ -126,7 +126,7 @@ hr.customhr{
 	background-color: #b40000 !important;
 }
 
-/* Migrado ddo css da demo de loja*/
+/* Migrado da demo shop */
 /* ----------------------------------------------------------------
 	Canvas: Shop
 -----------------------------------------------------------------*/
@@ -319,6 +319,14 @@ ul.iconlist i {
 
 .shop-footer-features h5 span { color: #A0ACB6 !important; }
 
+a {
+	text-decoration: none !important;
+	color: #005398;
+}
+
+a:hover {
+	color: #005398;
+}
 
 /* Estilos para telas menores que a largura de um tablet */
 @media (min-width: 768px) {
@@ -326,4 +334,35 @@ ul.iconlist i {
 		height: 20vh;
 		width: 100%;
 	}
+}
+
+h1 > span:not(.nocolor):not(.badge),
+h2 > span:not(.nocolor):not(.badge),
+h3 > span:not(.nocolor):not(.badge),
+h4 > span:not(.nocolor):not(.badge),
+h5 > span:not(.nocolor):not(.badge),
+h6 > span:not(.nocolor):not(.badge) { color: #005398; }
+
+
+.button {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	white-space: nowrap;
+	margin: 5px;
+	padding: 8px 22px;
+	font-size: 0.875rem;
+	line-height: 24px;
+	background-color: #005398;
+	color: #FFF;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border: none;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.h-sidebar{
+	font-size: 1.25rem;
 }
