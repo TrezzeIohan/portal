@@ -26,7 +26,10 @@
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 
-	<link rel="stylesheet" href="demos/construction/css/fonts.css" type="text/css" />
+	<!-- shop Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="demos/shop/shop.css" type="text/css" />
+	<link rel="stylesheet" href="demos/shop/css/fonts.css" type="text/css" />
+	<!-- / -->
 
 	<link rel="stylesheet" href="css/custom.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -49,17 +52,79 @@
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
+
+		<!-- Implementando a header do portal de Sarzedo -->
+		<div class="full-header header-size-sm bg-rblue" data-sticky-shrink="false" data-mobile-sticky="true">
+			<div id="header-wrap" class="bg-rblue">
+				<div class="container bg-rblue">
+					<div class="header-row justify-content-lg-between">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo" class="me-lg-4">
+							<a href="index.html" class="standard-logo"><img src="images/portal/logo-portal.png" alt="Logo Portal"></a>
+							<a href="index.html" class="retina-logo"><img src="images/portal/logo-portal.png" alt="Logo Portal"></a>
+						</div><!-- #logo end -->
+
+						<div class="header-misc">
+
+							<!-- Top Search
+							============================================= -->
+							<div id="top-account">
+								<a href="#modal-register" data-lightbox="inline" ><i class="icon-line2-user me-1 position-relative" style="top: 1px;"></i><span class="d-none d-sm-inline-block font-primary fw-medium">Login</span></a>
+							</div><!-- #top-search end -->
+
+							
+
+							<!-- Top Search
+							============================================= -->
+							<div id="top-search" class="header-misc-icon">
+								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
+							</div><!-- #top-search end -->
+
+						</div>
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger svg-trigger-white" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu with-arrows me-lg-auto">
+
+							<ul class="menu-container">
+								<li class="menu-item current"><a class="menu-link menu-link-sarzedo" href="#"><div>Home</div></a></li>
+								<li class="menu-item mega-menu"><a class="menu-link menu-link-sarzedo" href="produtos.html"><div>Nossa Cidade</div></a></li>
+								
+								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link menu-link-sarzedo" href="contato.html"><div>Destaques Locais</div></a>									
+								</li>
+
+								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link menu-link-sarzedo" href="perfil_comprador.html"><div>Conteúdo</div></a>									
+								</li>
+								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link menu-link-sarzedo" href="perfil-vendedor.html"><div>Institucional</div></a>									
+								</li>
+								
+													
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+
+						<form class="top-search-form" action="search.html" method="get">
+							<input type="text" name="q" class="form-control" value="" placeholder="Pesquisar" autocomplete="off" id="search">
+						</form>
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</div>
+		
 		<!-- Top Bar
 		============================================= -->
-		<div id="top-bar">
+		<div id="top-bar" class=" d-md-none d-lg-none d-xl-none">
 			<div class="container">
 
 				<div class="row justify-content-between align-items-center">
-					<div class="col-12 col-md-auto">
-						<p class="mb-0 py-2 text-center text-md-start"><strong>Telefone:</strong> 0800-0000-0000 | <strong>Email:</strong> info@gmail.com</p>
-					</div>
-
-					
 
 					<div class="col-12 col-md-auto">
 
@@ -73,8 +138,7 @@
 							</ul><!-- #top-social end -->
 	
 					</div>
-
-					
+				
 				</div>
 
 			</div>
@@ -83,17 +147,54 @@
 		<!-- Header
 		============================================= -->
 		<header id="header" class="header-size-sm" data-sticky-shrink="false">
-			<div class="container">
-				<div class="header-row">
+			<div class="container p-2">
+				
+				<div class="header-row d-lg-flex align-items-center justify-content-center">
 
 					<!-- Logo
 					============================================= -->
-					<div id="logo" class="ms-auto ms-lg-0 me-lg-auto">
+					<div id="logo" class="ms-auto ms-lg-0 me-lg-4">
 						<a href="index.html" class="standard-logo"><img src="images/logo/logo-construction-nobg.png" alt="Logo Construção"></a>
 						<a href="index.html" class="retina-logo"><img src="images/logo/logo-construction-nobg.png" alt="Logo Construção"></a>
 					</div><!-- #logo end -->
 
-					<div class="header-misc d-none d-lg-flex">
+					<div class="header-misc d-none d-lg-flex ms-lg-4 align-items-center justify-content-center">
+
+						<!-- Icones Da versão desktop da header-->
+					<div class="me-4">
+
+						<div class="d-flex flex-row mb-1">
+							<div class="d-flex">
+							<a href="#" class="social-icon si-whatsapp">
+								<i class="icon-whatsapp"></i>
+								<i class="icon-whatsapp"></i>
+							</a>
+							</div>
+
+							<div class="d-flex">
+							<a href="#" class="social-icon si-facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
+							</div>
+						</div>
+						<div class="d-flex flex-row">
+							<div class="d-flex">
+							<a href="#" class="social-icon si-instagram">
+								<i class="icon-instagram"></i>
+								<i class="icon-instagram"></i>
+							</a>
+							</div>
+
+							<div class="d-flex">
+							<a href="#" class="social-icon si-twitter">
+								<i class="icon-twitter"></i>
+								<i class="icon-twitter"></i>
+							</a>
+							</div>
+						</div>
+					</div>
+						
 
 						<ul class="header-extras">
 							<li>
@@ -112,29 +213,41 @@
 							</li>
 							<li>
 								<i class="i-plain icon-line-clock m-0"></i>
+							<a href="" class="d-flex align-items-center">
 								<div class="he-text">
-									Estamos abertos
-									<span>Seg. - Sáb. 08h às 19h</span>
+									Nossos Horários
+									<span>Clique Aqui</span>
 								</div>
+							</a>
+
 							</li>
+
+						
+							
+							
 						</ul>
+
+					
+							
 
 					</div>
 
 				</div>
 			</div>
 
+
+			<!-- Antiga Barra de Navegação Específica da Landing
 			<div id="header-wrap">
 				<div class="container">
 					<div class="header-row justify-content-between flex-row-reverse flex-lg-row justify-content-lg-center">
 
 						<div class="header-misc">
 
-							<!-- Top Search
-							============================================= -->
+							Top Search
+							============================================= 
 							<div id="top-search" class="header-misc-icon">
 								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
-							</div><!-- #top-search end -->
+							</div> #top-search end 
 
 						</div>
 
@@ -142,8 +255,8 @@
 							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
 						</div>
 
-						<!-- Primary Navigation
-						============================================= -->
+						 Primary Navigation
+						============================================= 
 						<nav class="primary-menu with-arrows">
 
 							<ul class="menu-container">
@@ -154,7 +267,7 @@
 								<li class="menu-item"><a class="menu-link" href=""><div>Contato</div></a></li>
 							</ul>
 
-						</nav><!-- #primary-menu end -->
+						</nav> #primary-menu end 
 
 						<form class="top-search-form" action="search.html" method="get">
 							<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
@@ -162,8 +275,33 @@
 
 					</div>
 				</div>
+			</div> -->
+			
+			<!--
+			<div class="row">
+				<div class="col-3 d-flex align-items-center justify-content-center"><a href="#slider" class="header-a-landing">Sobre Nós</a></div>
+				<div class="col-3 d-flex align-items-center justify-content-center"><a href="#nosso-lema" class="header-a-landing">Missão</a></div>
+				<div class="col-3 d-flex align-items-center justify-content-center"><a href="#projetos" class="header-a-landing">Projetos</a></div>
+				<div class="col-3 d-flex align-items-center justify-content-center"><a href="" class="header-a-landing">Contato</a></div>
 			</div>
-			<div class="header-wrap-clone"></div>
+		-->
+		
+		<div class="d-none d-md-flex align-items-center justify-content-center  w-100">
+			<ul class="d-flex justify-content-around nav-landing mt-2 w-25">
+				<li class=""><a href="#slider" class="header-a-landing">Sobre Nós</a></li>
+				<li class=""><a href="#nosso-lema" class="header-a-landing">Missão</a></li>
+				<li class=""><a href="#projetos" class="header-a-landing">Projetos</a></li>
+				<li class=""><a href="" class="header-a-landing">Contato</a></li>
+			</ul>
+		</div>
+
+		<ul class="d-flex justify-content-around nav-landing mt-2 d-md-none">
+			<li class=""><a href="#slider" class="header-a-landing">Sobre Nós</a></li>
+			<li class=""><a href="#nosso-lema" class="header-a-landing">Missão</a></li>
+			<li class=""><a href="#projetos" class="header-a-landing">Projetos</a></li>
+			<li class=""><a href="" class="header-a-landing">Contato</a></li>
+		</ul>
+			
 		</header><!-- #header end -->
 
 		<section id="slider" class="slider-element slider-parallax swiper_wrapper min-vh-75" data-loop="true">
@@ -571,7 +709,7 @@
 								</div>
 
 								<ul class="iconlist iconlist-large iconlist-color">
-									<li><i class="icon-ok"></i> Liíder do Mercado de Materiais de Construção em Sarzedo desde 1999</li>
+									<li><i class="icon-ok"></i> Líder do Mercado de Materiais de Construção em Sarzedo desde 1999</li>
 									<li><i class="icon-ok"></i> Resultados Positivos Dentro dos Prazos</li>
 									<li><i class="icon-ok"></i> Entrega &amp; Qualidade Garantidas</li>
 								</ul>
@@ -602,16 +740,16 @@
 							<div class="copyright-links"><a href="#">Portal de Sarzedo</a> / <a href="#">Site13</a></div>
 						</div>
 						
-						<div class="col-md-5 d-flex align-items-center">
-							<img src="images/portal/logo-portal.png" alt="" class="logo-portal-footer me-4">
+						<div class="col-md-5 d-flex align-items-center justify-content-center">
+							
 							<div class="white-section">
 								<label>Avalie este comerciante:</label>
 								<input id="input-5" type="number" class="rating" data-symbol="&#xe667;" max="5" data-stars="5" data-size="xs" data-default-caption="{rating} Hits" data-star-captions="{}">
 							</div>
 						</div>
 								
-						<div class="col-md-3 text-center text-md-end d-flex justify-content-end">
-							<div class="d-flex justify-content-center justify-content-md-end">
+						<div class="col-md-3 text-center text-md-end d-flex justify-content-center">
+							<div class="d-flex justify-content-center justify-content-md-end ">
 								<a href="#" class="social-icon si-small si-borderless si-facebook">
 									<i class="icon-facebook"></i>
 									<i class="icon-facebook"></i>
@@ -642,7 +780,7 @@
 			</div><!-- #copyrights end -->
 		</footer><!-- #footer end --><!-- #footer end -->
 
-	</div><!-- #wrapper end -->
+		</div><!-- #wrapper end -->
 
 	<!-- Go To Top
 	============================================= -->

@@ -366,3 +366,13 @@ h6 > span:not(.nocolor):not(.badge) { color: #005398; }
 .h-sidebar{
 	font-size: 1.25rem;
 }
+
+a.menu-link-sarzedo{
+
+	color: #fff !important;
+}
+
+a.menu-link-sarzedo:hover{
+
+	color: #ECB831 !important;
+}

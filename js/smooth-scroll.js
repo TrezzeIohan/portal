@@ -1,4 +1,4 @@
-$('.menu-link').on('click', function(e) {
+$('.header-a-landing').on('click', function(e) {
     e.preventDefault();
     var id = $(this).attr('href'),
     targetOffset = $(id).offset().top;
