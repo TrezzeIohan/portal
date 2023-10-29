@@ -1,15 +1,16 @@
 X Solucionar Bug do texto pequeno da área inicial na versão mobile da landing2
 X Colocar a logo do lojista no topo da página
 X Criar uma landing page para materiais de construção visando serviços no geral (Ver Mastermarq: https://mastermaqassistencia.com.br/)
-. Colocar a logo do portal de Sarzedo na navbar das landings
-. Colocar um menu lateral com conteúdo da landing nas landings
-. Usar a aba de navegação superior do portal de sarzedo para todas as landings
+X Colocar a logo do portal de Sarzedo na navbar das landings
+X Usar a aba de navegação superior do portal de sarzedo para todas as landings
 X Avaliação a ser feita dentro das páginas dos lojistas
 X Carrossel com depoimentos (3 por vez)
 . Colocar um Selo de Avaliação da Página usando svg
-. Fazer sessão de Blog (página acho)
+X Fazer sessão de Blog (página acho)
 . Fazer sessão com eventos
 X Fazer página individual da notícia
-. Aplicar as mudanças da landing 3 às demais landings (star rating, script de rolagem suave para lnks internos)
+X Aplicar as mudanças da landing 3 às demais landings (star rating, script de rolagem suave para lnks internos)
 . Tornar a home de Sarzedo responsível
-. Fazer um slider com touch na página de eventos
+. Solucionar Bug da Lannding 1, na qual os links da navbar não são clicáveis por causa de interação com o slider
+. Estilizar a header da parte 2 para ficar como as demais
+. Ver uma outra fonte para o texto "portal de sarzed" na header

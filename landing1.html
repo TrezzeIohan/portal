@@ -35,7 +35,8 @@
     <!--Serif-->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-	
+	<!-- Star Rating CSS -->
+	<link rel="stylesheet" href="css/components/bs-rating.css" type="text/css" />
 
 	<!-- Bootstrap
 	============================================ -->
@@ -60,18 +61,17 @@
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
-		<!-- Header
-		============================================= -->
-		<header id="header" class="full-header header-size-sm bg-red" data-sticky-shrink="false" data-mobile-sticky="true">
-			<div id="header-wrap" class="bg-red">
-				<div class="container bg-red">
+		<!-- Implementando a header do portal de Sarzedo -->
+		<div class="full-header header-size-sm bg-rblue" data-sticky-shrink="false" data-mobile-sticky="true">
+			<div id="header-wrap" class="bg-rblue">
+				<div class="container bg-rblue">
 					<div class="header-row justify-content-lg-between">
 
 						<!-- Logo
 						============================================= -->
 						<div id="logo" class="me-lg-4">
-							<a href="index.html" class="standard-logo"><img src="images/logo/logoGrill.jpg" alt="Logo Portal" class="rounded-pill"></a>
-							<a href="index.html" class="retina-logo"><img src="images/logo/logoGrill.jpg" alt="Logo Portal" class="rounded-pill"></a>
+							<a href="index.html" class="standard-logo logo-text d-flex align-items-center justify-content-center"><img src="images/portal/logo-portal.png" alt="Logo Portal" class="me-2">Portal de Sarzedo</a>
+							<a href="index.html" class="retina-logo logo-text"><img src="images/portal/logo-portal.png" alt="Logo Portal">Portal de Sarzedo</a>
 						</div><!-- #logo end -->
 
 						<div class="header-misc">
@@ -93,7 +93,7 @@
 						</div>
 
 						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+							<svg class="svg-trigger svg-trigger-white" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
 						</div>
 
 						<!-- Primary Navigation
@@ -101,15 +101,15 @@
 						<nav class="primary-menu with-arrows me-lg-auto">
 
 							<ul class="menu-container">
-								<li class="menu-item current"><a class="menu-link" href="#"><div>Home</div></a></li>
-								<li class="menu-item mega-menu"><a class="menu-link" href="produtos.html"><div>Queridinhos da Casa</div></a></li>
+								<li class="menu-item current"><a class="menu-link menu-link-sarzedo" href="#"><div>Home</div></a></li>
+								<li class="menu-item mega-menu"><a class="menu-link menu-link-sarzedo" href="produtos.html"><div>Nossa Cidade</div></a></li>
 								
-								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="contato.html"><div>Depoimentos</div></a>									
+								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link menu-link-sarzedo" href="contato.html"><div>Destaques Locais</div></a>									
 								</li>
 
-								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="perfil_comprador.html"><div>Conheça a gente</div></a>									
+								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link menu-link-sarzedo" href="perfil_comprador.html"><div>Conteúdo</div></a>									
 								</li>
-								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="perfil-vendedor.html"><div>Endereço</div></a>									
+								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link menu-link-sarzedo" href="perfil-vendedor.html"><div>Institucional</div></a>									
 								</li>
 								
 													
@@ -125,6 +125,141 @@
 				</div>
 			</div>
 			<div class="header-wrap-clone"></div>
+		</div>
+		
+		<!-- Top Bar
+		============================================= -->
+		<div id="top-bar" class=" d-md-none d-lg-none d-xl-none">
+			<div class="container">
+
+				<div class="row justify-content-between align-items-center">
+
+					<div class="col-12 col-md-auto">
+
+							<!-- Top Social
+							============================================= -->
+							<ul id="top-social">
+								<li><a href="#" class="si-facebook"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
+								<li><a href="#" class="si-twitter"><span class="ts-icon"><i class="icon-twitter"></i></span><span class="ts-text">Twitter</span></a></li>
+								<li><a href="#" class="si-instagram"><span class="ts-icon"><i class="icon-instagram"></i></span><span class="ts-text">Instagram</span></a></li>
+								<li><a href="#" class="si-whatsapp"><span class="ts-icon"><i class="icon-whatsapp"></i></span><span class="ts-text">Whatsapp</span></a></li>
+							</ul><!-- #top-social end -->
+	
+					</div>
+				
+				</div>
+
+			</div>
+		</div><!-- #top-bar end -->
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="header-size-sm" data-sticky-shrink="false">
+			<div class="container p-2">
+				
+				<div class="header-row d-lg-flex align-items-center justify-content-center">
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo" class="ms-auto ms-lg-0 me-lg-4">
+						<a href="index.html" class="standard-logo"><img src="images/logo/logoGrill-nobg.png" alt="Logo Grill"></a>
+						<a href="index.html" class="retina-logo"><img src="images/logo/logoGrill-nobg.png" alt="Logo Grill"></a>
+					</div><!-- #logo end -->
+
+					<div class="header-misc d-none d-lg-flex ms-lg-4 align-items-center justify-content-center">
+
+						<!-- Icones Da versão desktop da header-->
+					<div class="me-4">
+
+						<div class="d-flex flex-row mb-1">
+							<div class="d-flex">
+							<a href="#" class="social-icon si-whatsapp">
+								<i class="icon-whatsapp"></i>
+								<i class="icon-whatsapp"></i>
+							</a>
+							</div>
+
+							<div class="d-flex">
+							<a href="#" class="social-icon si-facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
+							</div>
+						</div>
+						<div class="d-flex flex-row">
+							<div class="d-flex">
+							<a href="#" class="social-icon si-instagram">
+								<i class="icon-instagram"></i>
+								<i class="icon-instagram"></i>
+							</a>
+							</div>
+
+							<div class="d-flex">
+							<a href="#" class="social-icon si-twitter">
+								<i class="icon-twitter"></i>
+								<i class="icon-twitter"></i>
+							</a>
+							</div>
+						</div>
+					</div>
+						
+
+						<ul class="header-extras">
+							<li>
+								<i class="i-plain icon-call m-0"></i>
+								<div class="he-text">
+									Ligue pra Gente
+									<span>(00) 00000-0000</span>
+								</div>
+							</li>
+							<li>
+								<i class="i-plain icon-line2-envelope m-0"></i>
+								<div class="he-text">
+									Nosso e-mail
+									<span>info@gmail.com</span>
+								</div>
+							</li>
+							<li>
+								<i class="i-plain icon-line-clock m-0"></i>
+							<a href="" class="d-flex align-items-center">
+								<div class="he-text">
+									Nossos Horários
+									<span>Clique Aqui</span>
+								</div>
+							</a>
+
+							</li>
+
+						
+							
+							
+						</ul>
+
+					
+							
+
+					</div>
+
+				</div>
+			</div>
+
+		
+		<div class="d-none d-md-flex align-items-center justify-content-center  w-100">
+			<ul class="d-flex justify-content-around nav-landing mt-2 w-25">
+				<li class=""><a href="#slider" class="header-a-landing">Sobre Nós</a></li>
+				<li class=""><a href="#nosso-lema" class="header-a-landing">Missão</a></li>
+				<li class=""><a href="#projetos" class="header-a-landing">Projetos</a></li>
+				<li class=""><a href="" class="header-a-landing">Contato</a></li>
+			</ul>
+		</div>
+
+		<ul class="d-flex justify-content-around nav-landing mt-2 d-md-none">
+			<li class=""><a href="#slider" class="header-a-landing">Sobre Nós</a></li>
+			<li class=""><a href="#nosso-lema" class="header-a-landing">Missão</a></li>
+			<li class=""><a href="#projetos" class="header-a-landing">Projetos</a></li>
+			<li class=""><a href="" class="header-a-landing">Contato</a></li>
+		</ul>
+			
 		</header><!-- #header end -->
 
 		
@@ -316,29 +451,61 @@
 
 		<!-- Footer
 		============================================= -->
-		<footer id="footer" class=" border-0 bg-red">
-
+		<footer id="footer" class="dark">
 			
 
 			<!-- Copyrights
 			============================================= -->
-			<div id="copyrights" class=" bg-red">
+			<div id="copyrights">
+				<div class="container">
 
-				<div class="container clearfix">
 
-					<div class="row justify-content-between align-items-center">
-						<div class="col-md-6 txt-white" id="copy-text">
-							Copyrights &copy; 2023, Site 13. Todos os direitos reservados.<br>
+
+					<div class="row col-mb-30">
+
+						<div class="col-md-4 text-center text-md-start d-flex flex-column">
+							Copyrights &copy; 2023 - Portal de Sarzedo<br>
+							<div class="copyright-links"><a href="#">Portal de Sarzedo</a> / <a href="#">Site13</a></div>
+						</div>
+						
+						<div class="col-md-5 d-flex align-items-center justify-content-center">
 							
+							<div class="white-section">
+								<label>Avalie este comerciante:</label>
+								<input id="input-5" type="number" class="rating" data-symbol="&#xe667;" max="5" data-stars="5" data-size="xs" data-default-caption="{rating} Hits" data-star-captions="{}">
+							</div>
+						</div>
+								
+						<div class="col-md-3 text-center text-md-end d-flex justify-content-center">
+							<div class="d-flex justify-content-center justify-content-md-end ">
+								<a href="#" class="social-icon si-small si-borderless si-facebook">
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-borderless si-instagram">
+									<i class="icon-instagram"></i>
+									<i class="icon-instagram"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-borderless si-twitter">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+
+
+								<a href="#" class="social-icon si-small si-borderless si-whatsapp">
+									<i class="icon-whatsapp"></i>
+									<i class="icon-whatsapp"></i>
+								</a>
+							</div>
 						</div>
 
 						
 					</div>
 
 				</div>
-
 			</div><!-- #copyrights end -->
-
 		</footer><!-- #footer end -->
 
 	</div><!-- #wrapper end -->
@@ -358,9 +525,50 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
+    <!-- Star Rating Plugin -->
+	<script src="js/components/star-rating.js"></script>
+
+	<!-- JS para rolagem suave com clickem link para sessão da mesma página-->
+	<script src="js/smooth-scroll.js"></script>
+
+	
 
 	<!-- ADD-ONS JS FILES -->
 	<script>
+
+		$("#input-7").rating({
+			containerClass: 'is-heart',
+			filledStar: '<i class="icon-heart3"></i>',
+			emptyStar: '<i class="icon-heart-empty"></i>',
+			starCaptions: {0: "Not Rated",1: "Very Poor", 2: "Poor", 3: "Ok", 4: "Good", 5: "Very Good"},
+			starCaptionClasses: {0: "text-danger", 1: "text-danger", 2: "text-warning", 3: "text-info", 4: "text-primary", 5: "text-success"},
+		});
+
+		$("#input-8").rating({
+			containerClass: '',
+			filledStar: '<i class="icon-flag21"></i>',
+			emptyStar: '<i class="icon-flag-alt"></i>',
+			starCaptions: {0: "Not Rated",1: "1 Flags", 2: "2 Flags", 3: "3 Flags", 4: "4 Flags", 5: "5 Flags"},
+			starCaptionClasses: {0: "text-danger", 1: "text-danger", 2: "text-warning", 3: "text-info", 4: "text-primary", 5: "text-success"},
+		});
+
+		$("#input-11").rating({
+			starCaptions: {0: "Not Rated",1: "Very Poor", 2: "Poor", 3: "Ok", 4: "Good", 5: "Very Good"},
+			starCaptionClasses: {0: "text-danger", 1: "text-danger", 2: "text-warning", 3: "text-info", 4: "text-primary", 5: "text-success"},
+		});
+
+		$("#input-13").on("rating.clear", function(event) {
+			$('#rating-notification-message').attr('data-notify-type','error').attr('data-notify-msg', 'Your rating is reset');
+			SEMICOLON.widget.notifications({ el: jQuery('#rating-notification-message') });
+		});
+		$("#input-13").on("rating.change", function(event, value, caption) {
+			$('#rating-notification-message').attr('data-notify-msg', 'You rated: ' + value + ' Stars');
+			SEMICOLON.widget.notifications({ el: jQuery('#rating-notification-message') });
+		});
+
+		$("#input-14").on("rating.change", function(event, value, caption) {
+			$("#input-14").rating("refresh", {disabled: true, showClear: false});
+		});
 
 	</script>
 

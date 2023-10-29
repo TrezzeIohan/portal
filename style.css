@@ -17082,3 +17082,8 @@ a.menu-link-sarzedo{
 .nav-landing{
     list-style-type: none
 }
+
+.logo-text{
+	font-size: 0.75rem !important;
+	color: #F9F9F9 !important;
+}

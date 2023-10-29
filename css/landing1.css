@@ -49,3 +49,39 @@
 	max-width: 90%;
 }
 
+.menu-link{
+    color: #333; 
+}
+
+.testi-content p{
+    font-size: 1rem;
+}
+
+.testi-meta span{
+    color: #999 !important;
+}
+
+.header-extras li .he-text span{
+    color: #333;
+}
+
+
+.svg-trigger path {
+	stroke: #333;
+}
+
+
+.header-a-landing{
+    color: #b40000;
+    font-size: 0.8rem;
+    font-weight: bold;
+    
+}
+
+.header-a-landing:hover{
+	color: #830000;
+}
+
+#header{
+	background-color: #F9F9F9;
+}
