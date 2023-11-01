@@ -327,3 +327,18 @@ ul.iconlist i {
 		width: 100%;
 	}
 }
+
+
+/* Regras de estilo das notícias da página principal */
+.entry-image-home{
+	margin-bottom: 0px !important;
+}
+
+.entry-home{
+	margin-bottom: 0px !important;
+}
+
+.entry.entry-home::after{
+	margin-top: 0px;
+	background-color: #fff;
+}
