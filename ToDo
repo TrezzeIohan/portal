@@ -5,15 +5,15 @@ X Colocar a logo do portal de Sarzedo na navbar das landings
 X Usar a aba de navegação superior do portal de sarzedo para todas as landings
 X Avaliação a ser feita dentro das páginas dos lojistas
 X Carrossel com depoimentos (3 por vez)
-. Colocar um Selo de Avaliação da Página usando svg
+X Colocar um Selo de Avaliação da Página usando svg
 X Fazer sessão de Blog (página acho)
 x Fazer sessão com eventos
 X Fazer página individual da notícia
 X Aplicar as mudanças da landing 3 às demais landings (star rating, script de rolagem suave para lnks internos)
-. Tornar a home de Sarzedo responsível (Usar como base a página de blog)
-. Solucionar Bug da Lannding 1, na qual os links da navbar não são clicáveis por causa de interação com o slider
-. Estilizar a header da parte 2 para ficar como as demais
-. Ver uma outra fonte para o texto "portal de sarzedo" na header
+X Tornar a home de Sarzedo responsível (Usar como base a página de blog)
+X Solucionar Bug da Lannding 1, na qual os links da navbar não são clicáveis por causa de interação com o slider
+X Estilizar a header da parte 2 para ficar como as demais
+X Ver uma outra fonte para o texto "portal de sarzedo" na header
 . Fazer um Favicon com a logo do portal para o diretório Root
 . Colocar um espaço para contagem de visualizações da postagem, na parte direita superior da postagem
 X Retirar a possibilidade de responder a comentários

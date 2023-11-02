@@ -17091,3 +17091,32 @@ a.menu-link-sarzedo{
 .destaque{
 	color: #005398;
 }
+
+.badge{
+	background-color: transparent !important;
+}
+
+footer{
+	background-color: #005398 !important;
+}
+
+.footer-color-white{
+	color: white !important;
+}
+
+.copyright-links{
+	color: white !important;
+}
+
+.copyright-links a{
+	color: white !important;
+}
+
+#slider{
+	margin-top: 0 !important;
+}
+
+
+#logo a {
+	font-weight: bold;
+}
