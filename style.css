@@ -16864,6 +16864,10 @@ label.checkbox { padding-left: 20px; }
 
 }
 
+.menu-link-sarzedo:hover{
+	color: #ECB831 !important;
+}
+
 
 /* Migrado ddo css da demo de loja*/
 /* ----------------------------------------------------------------
@@ -17119,4 +17123,27 @@ footer{
 
 #logo a {
 	font-weight: bold;
+}
+
+
+/* Regras pra página de Login */
+.font-blue{
+	color: #005398;
+}
+
+.font-blue:hover{
+	color: #005398;
+}
+
+.font-grey{
+	color: #555 !important;
+}
+
+
+.inscrever{
+	color: #0d6efd;
+}
+
+.inscrever:hover{
+	color: #0d6efd;
 }

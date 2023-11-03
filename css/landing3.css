@@ -203,3 +203,9 @@
 ---------------------------------------------------------------------------- */
 
 .rtl .grid-border [class^=col-] { margin: -1px 0 0 -1px; }
+
+
+/* Regra para deixar os ícones do footer com a cor desejada*/
+#footer.dark .social-icon.si-borderless {
+	color: rgba(255,255,255,1.0) !important;
+}

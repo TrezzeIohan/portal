@@ -88,3 +88,7 @@
 	background-color: #F9F9F9;
 }
 
+/* Regra para deixar os ícones do footer com a cor desejada*/
+#footer.dark .social-icon.si-borderless {
+	color: rgba(255,255,255,1.0) !important;
+}
