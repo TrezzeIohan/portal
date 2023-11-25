@@ -3146,9 +3146,9 @@ html[xmlns] .slider-wrap {
 
 
 #header {
-	/*position: relative;*/
+	/*position: static;*/
 	background-color: #005398;
-	position: static;
+	
 	
 }
 
