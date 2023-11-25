@@ -69,9 +69,41 @@
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
+		<!-- Login Modal -->
+		<div class="modal1 mfp-hide" id="modal-register">
+			<div class="card mx-auto" style="max-width: 540px;">
+				<div class="card-header py-3 bg-transparent center">
+					<h3 class="mb-0 fw-normal">Olá, bem vindo de volta!</h3>
+				</div>
+				<div class="card-body mx-auto py-5" style="max-width: 70%;">
+					<form id="login-form" name="login-form" class="mb-0 row" action="" method="post">
+
+						<div class="col-12">
+							<input type="text" id="login-form-username" name="login-form-username" value="" class="form-control not-dark" placeholder="Email" />
+						</div>
+
+						<div class="col-12 mt-4">
+							<input type="password" id="login-form-password" name="login-form-password" value="" class="form-control not-dark" placeholder="Senha" />
+						</div>
+
+						<div class="col-12">
+							<a href="#" class="float-end text-dark fw-light mt-2">Esqueceu sua Senha?</a>
+						</div>
+
+						<div class="col-12 mt-4">
+							<button class="button w-100 m-0 bg-rblue" id="login-form-submit" name="login-form-submit" value="login">Login</button>
+						</div>
+					</form>
+				</div>
+				<div class="card-footer py-4 center">
+					<p class="mb-0">Ainda não tem uma conta? <a href="registrar.html" class="inscrever"><u>Inscrever</u></a></p>
+				</div>
+			</div>
+		</div>
+
 		<!-- Header
 		============================================= -->
-		<header id="header" class="full-header header-size-sm bg-rblue" data-sticky-shrink="false" data-mobile-sticky="true">
+		<header id="header" class="full-header header-size-sm bg-rblue sticky-top" data-sticky-shrink="false">
 			<div id="header-wrap" class="bg-rblue">
 				<div class="container bg-rblue">
 					<div class="header-row justify-content-lg-between">
@@ -80,7 +112,7 @@
 						============================================= -->
 						<div id="logo" class="me-lg-4">
 							<a href="index.html" class="standard-logo logo-text d-flex align-items-center justify-content-center"><img src="images/portal/logo-portal.png" alt="Logo Portal" class="me-2">Portal de Sarzedo</a>
-							<a href="index.html" class="retina-logo logo-text"><img src="images/portal/logo-portal.png" alt="Logo Portal">Portal de Sarzedo</a>
+							
 						</div><!-- #logo end -->
 
 						<div class="header-misc">
@@ -88,7 +120,7 @@
 							<!-- Top Search
 							============================================= -->
 							<div id="top-account">
-								<a href="#modal-register" data-lightbox="inline" ><i class="icon-line2-user me-1 position-relative" style="top: 1px;"></i><span class="d-none d-sm-inline-block font-primary fw-medium">Login</span></a>
+								<a href="#modal-register" data-lightbox="inline" class="menu-link-sarzedo"><i class="icon-line2-user me-1 position-relative" style="top: 1px;"></i><span class="d-none d-sm-inline-block font-primary fw-medium">Login</span></a>
 							</div><!-- #top-search end -->
 
 							
@@ -102,7 +134,7 @@
 						</div>
 
 						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+							<svg class="svg-trigger svg-trigger-white" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
 						</div>
 
 						<!-- Primary Navigation
@@ -110,18 +142,18 @@
 						<nav class="primary-menu with-arrows me-lg-auto">
 
 							<ul class="menu-container">
-								<li class="menu-item current"><a class="menu-link" href="#"><div>Home</div></a></li>
-								<li class="menu-item mega-menu"><a class="menu-link" href="produtos.html"><div>Nossa Cidade</div></a></li>
+								<li class="menu-item current"><a class="menu-link" href="index.html"><div>Home</div></a></li>
+
+								<li class="menu-item mega-menu"><a class="menu-link" href="sarzedo.html"><div>Nossa Cidade</div></a></li>
+
+								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="catálogo.html"><div>Lojistas de Confiança</div></a>									
+								</li>
 								
-								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="contato.html"><div>Destaques Locais</div></a>									
+								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="pontos-turisticos.html"><div>Pontos Turísticos</div></a>									
 								</li>
 
-								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="perfil_comprador.html"><div>Conteúdo</div></a>									
-								</li>
-								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="perfil-vendedor.html"><div>Institucional</div></a>									
-								</li>
-								
-													
+								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="lista-eventos.html"><div>Eventos</div></a>									
+								</li>							
 							</ul>
 
 						</nav><!-- #primary-menu end -->
@@ -433,9 +465,9 @@
 
 								<ul class="list-unstyled iconlist ms-0">
 									<li><a href="index.html" class="txt-white">Home</a></li>
-									<li><a href="login.html" class="txt-white">Perfil do Usuário</a></li>
-									<li><a href="registrar.html" class="txt-white">Cadastro</a></li>
-									<li><a href="produtos.html" class="txt-white">Conheça nosso Catálogo</a></li>
+									<li><a href="perfil.html" class="txt-white">Perfil do Usuário</a></li>
+									<li><a href="login.html" class="txt-white">Cadastro</a></li>
+									<li><a href="catálogo.html" class="txt-white">Comerciantes de Confiança</a></li>
 								</ul>
 
 							</div>
@@ -446,7 +478,6 @@
 								<h4 class="ls0 mb-3 nott text-white">Suporte</h4>
 
 								<ul class="list-unstyled iconlist ms-0">
-									<li><a href="contato.html" class="txt-white">Fale com a gente</a></li>
 									<li><a href="privacidade.html" class="txt-white">Política de Privacidade</a></li>
 									<li><a href="termos.html" class="txt-white">Termos de Uso</a></li>
 
