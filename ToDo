@@ -6,23 +6,21 @@
 
 . Colocar todos os links ligados às paginas de maneira correta (header e footer de todas as páginas,exceto as landings feitas. Falra fazer para as landins e os demais links denro das páginas, como a página de eventos ara o evento específico)
 
-. Colocar apenas os lojistas na versão mobile e colocar uma barrinha de pesquisa própria (pesquise lojistas)
+. No catálogo colocar apenas os lojistas na versão mobile e colocar uma barrinha de pesquisa própria (pesquise lojistas)
 
-. Tirar da header os dois logos na versão mobile
+X Tirar da header os dois logos na versão mobile
 
-. Diminuir a altura imagem do modal
+X Diminuir a altura imagem do modal
 
-. Aumentar texto do menu da landing para 1.2rem
+X Aumentar texto do menu da landing para 1.2rem (aumentei para 1.0 rem, pois ficou melhor no responsivo)
 
-. Ajustar os links para rolarem nas landings tbm
+X Ajustar os links para rolarem nas landings tbm
 
-. Não mostrar os links do menu na versão mobile.
+X Não mostrar os links do menu na versão mobile.
 
 . Na página de login, trocar a forma para "tab", abas.
 
-. Retirar o segundo logo
-
-. Na notícia, retirar tópicos e colocar visualizações sem texto na parte esquerda superior
+X Na notícia, retirar tópicos e colocar visualizações sem texto na parte esquerda superior
 
 . Na página de locais turísticos, espalhara s imagens por toda a tela e diminuir a altura
 

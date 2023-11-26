@@ -17156,3 +17156,18 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(2.3px);
 -webkit-backdrop-filter: blur(2.3px);
 }
+
+
+/* Regras do modal do index */
+.modal-img{
+	min-height: 430px !important;
+}
+
+@media (max-width: 600px) {
+
+	.modal-img{
+		min-height: 230px !important;
+	}
+
+}
+

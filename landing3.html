@@ -58,6 +58,38 @@
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
+		<!-- Login Modal -->
+		<div class="modal1 mfp-hide" id="modal-register">
+			<div class="card mx-auto" style="max-width: 540px;">
+				<div class="card-header py-3 bg-transparent center">
+					<h3 class="mb-0 fw-normal">Olá, bem vindo de volta!</h3>
+				</div>
+				<div class="card-body mx-auto py-5" style="max-width: 70%;">
+					<form id="login-form" name="login-form" class="mb-0 row" action="" method="post">
+
+						<div class="col-12">
+							<input type="text" id="login-form-username" name="login-form-username" value="" class="form-control not-dark" placeholder="Email" />
+						</div>
+
+						<div class="col-12 mt-4">
+							<input type="password" id="login-form-password" name="login-form-password" value="" class="form-control not-dark" placeholder="Senha" />
+						</div>
+
+						<div class="col-12">
+							<a href="#" class="float-end text-dark fw-light mt-2">Esqueceu sua Senha?</a>
+						</div>
+
+						<div class="col-12 mt-4">
+							<button class="button w-100 m-0 bg-rblue" id="login-form-submit" name="login-form-submit" value="login">Login</button>
+						</div>
+					</form>
+				</div>
+				<div class="card-footer py-4 center">
+					<p class="mb-0">Ainda não tem uma conta? <a href="registrar.html" class="inscrever"><u>Inscrever</u></a></p>
+				</div>
+			</div>
+		</div>
+
 
 		<!-- Implementando a header do portal de Sarzedo -->
 		<div class="full-header header-size-sm bg-rblue" data-sticky-shrink="false" data-mobile-sticky="true">
@@ -99,18 +131,18 @@
 						<nav class="primary-menu with-arrows me-lg-auto">
 
 							<ul class="menu-container">
-								<li class="menu-item current"><a class="menu-link menu-link-sarzedo" href="#"><div>Home</div></a></li>
-								<li class="menu-item mega-menu"><a class="menu-link menu-link-sarzedo" href="produtos.html"><div>Nossa Cidade</div></a></li>
+								<li class="menu-item current"><a class="menu-link menu-link-sarzedo" href="index.html"><div>Home</div></a></li>
+
+								<li class="menu-item mega-menu"><a class="menu-link menu-link-sarzedo" href="sarzedo.html"><div>Nossa Cidade</div></a></li>
+
+								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link menu-link-sarzedo" href="catálogo.html"><div>Lojistas de Confiança</div></a>									
+								</li>
 								
-								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link menu-link-sarzedo" href="contato.html"><div>Destaques Locais</div></a>									
+								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link menu-link-sarzedo" href="pontos-turisticos.html"><div>Pontos Turísticos</div></a>									
 								</li>
 
-								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link menu-link-sarzedo" href="perfil_comprador.html"><div>Conteúdo</div></a>									
-								</li>
-								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link menu-link-sarzedo" href="perfil-vendedor.html"><div>Institucional</div></a>									
-								</li>
-								
-													
+								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link menu-link-sarzedo" href="lista-eventos.html"><div>Eventos</div></a>									
+								</li>							
 							</ul>
 
 						</nav><!-- #primary-menu end -->
@@ -150,37 +182,7 @@
 			</div>
 		</div><!-- #top-bar end -->
 
-		<!-- Login Modal -->
-		<div class="modal1 mfp-hide" id="modal-register">
-			<div class="card mx-auto" style="max-width: 540px;">
-				<div class="card-header py-3 bg-transparent center">
-					<h3 class="mb-0 fw-normal">Olá, bem vindo de volta!</h3>
-				</div>
-				<div class="card-body mx-auto py-5" style="max-width: 70%;">
-					<form id="login-form" name="login-form" class="mb-0 row" action="" method="post">
-
-						<div class="col-12">
-							<input type="text" id="login-form-username" name="login-form-username" value="" class="form-control not-dark" placeholder="Email" />
-						</div>
-
-						<div class="col-12 mt-4">
-							<input type="password" id="login-form-password" name="login-form-password" value="" class="form-control not-dark" placeholder="Senha" />
-						</div>
-
-						<div class="col-12">
-							<a href="#" class="float-end text-dark fw-light mt-2">Esqueceu sua Senha?</a>
-						</div>
-
-						<div class="col-12 mt-4">
-							<button class="button w-100 m-0 bg-rblue" id="login-form-submit" name="login-form-submit" value="login">Login</button>
-						</div>
-					</form>
-				</div>
-				<div class="card-footer py-4 center">
-					<p class="mb-0">Ainda não tem uma conta? <a href="registrar.html" class="inscrever"><u>Inscrever</u></a></p>
-				</div>
-			</div>
-		</div>
+		
 
 		<!-- Header
 		============================================= -->
@@ -192,8 +194,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo" class="ms-auto ms-lg-0 me-lg-4">
-						<a href="index.html" class="standard-logo"><img src="images/logo/logo-construction-nobg.png" alt="Logo Construção"></a>
-						<a href="index.html" class="retina-logo"><img src="images/logo/logo-construction-nobg.png" alt="Logo Construção"></a>
+						<a href="index.html" class="standard-logo"><img src="images/logo/logo-construction-nobg.png" alt="Logo Grill"></a>
+						<a href="index.html" class="retina-logo"><img src="images/logo/logo-construction-nobg.png" alt="Logo Grill"></a>
 					</div><!-- #logo end -->
 
 					<div class="header-misc d-none d-lg-flex ms-lg-4 align-items-center justify-content-center">
@@ -222,7 +224,7 @@
 							</li>
 							<li>
 								<i class="i-plain icon-line-clock m-0"></i>
-							<a href="" class="d-flex align-items-center header-a-landing">
+							<a href="#funcionamento" class="d-flex align-items-center header-a-landing">
 								<div class="he-text">
 									Nossos Horários
 									<span>Clique Aqui</span>
@@ -274,20 +276,21 @@
 
 		
 		<div class="d-none d-md-flex align-items-center justify-content-center  w-100">
-			<ul class="d-flex justify-content-around nav-landing mt-2 w-25">
-				<li class=""><a href="#slider" class="header-a-landing">Sobre Nós</a></li>
-				<li class=""><a href="#nosso-lema" class="header-a-landing">Missão</a></li>
-				<li class=""><a href="#projetos" class="header-a-landing">Projetos</a></li>
-				<li class=""><a href="" class="header-a-landing">Contato</a></li>
+			<ul class="d-flex justify-content-around nav-landing mt-2 w-50">
+				<li class="p-1"><a href="#1" class="header-a-landing">Materiais</a></li>
+				<li class="p-1"><a href="#2" class="header-a-landing">Objetivo</a></li>
+				<li class="p-1"><a href="#3" class="header-a-landing">Depoimento</a></li>
+				<li class="p-1"><a href="#4" class="header-a-landing">Galeria</a></li>
 			</ul>
 		</div>
 
+		<!-- Antiga versão para mobile, escolhida não ser mostrada devido à responsividade 
 		<ul class="d-flex justify-content-around nav-landing mt-2 d-md-none">
-			<li class=""><a href="#slider" class="header-a-landing">Sobre Nós</a></li>
-			<li class=""><a href="#nosso-lema" class="header-a-landing">Missão</a></li>
-			<li class=""><a href="#projetos" class="header-a-landing">Projetos</a></li>
-			<li class=""><a href="" class="header-a-landing">Contato</a></li>
-		</ul>
+			<li class="px-1"><a href="#1" class="header-a-landing">Materiais</a></li>
+			<li class="px-1"><a href="#2" class="header-a-landing">Objetivo</a></li>
+			<li class="px-1"><a href="#3" class="header-a-landing">Depoimento</a></li>
+			<li class="px-1"><a href="#4" class="header-a-landing">Galeria</a></li>
+		</ul> -->
 			
 		</header><!-- #header end -->
 
@@ -355,7 +358,7 @@
 		<section id="content">
 			<div class="content-wrap">
 
-				<div class="promo promo-light promo-full promo-uppercase p-5 bottommargin-lg header-stick">
+				<div id="1" class="promo promo-light promo-full promo-uppercase p-5 bottommargin-lg header-stick">
 					<div class="container clearfix">
 						<div class="row align-items-center">
 							<div class="col-12 col-lg">
@@ -431,7 +434,7 @@
 						<div class="container-fluid center">
 							<i class="i-plain i-xlarge icon-house-user mx-auto" data-animate="fadeInDown"></i>
 
-							<div class="slider-caption slider-caption-center">
+							<div id="2" class="slider-caption slider-caption-center">
 								<h2 data-animate="fadeInUp">Ajudando a Construir Sonhos</h2>
 								<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">"O sucesso começa com um plano sólido, e estamos prontos para planejar seu caminho para o sucesso."</p>
 							</div>
@@ -449,7 +452,7 @@
 
 				<!-- Testemunhos
 				============================ -->
-				<ul class="testimonials-grid grid-1 grid-md-2 grid-lg-3">
+				<ul id="3" class="testimonials-grid grid-1 grid-md-2 grid-lg-3">
 					<li class="grid-item">
 						<div class="testimonial">
 							<div class="testi-image">
@@ -498,7 +501,7 @@
 				<!-- Portfólio
 				============================ -->
 				<div class="section pt-0 mb-0" id="projetos">
-					<h2 class="center mb-0 ls1">Alguns dos Projetos que Participamos:</h2>
+					<h2 id="4" class="center mb-0 ls1">Alguns dos Projetos que Participamos:</h2>
 				</div>
 
 				<div id="portfolio" class="portfolio row grid-container g-0">
@@ -683,6 +686,43 @@
 
 				<div class="line topmargin-sm"></div>
 
+				<div class="container clearfix mb-4" id="funcionamento">
+
+					<div class="row col-mb-50" id="3">
+						<div class="col-sm-6 col-lg-6">
+							<div class="fancy-title title-border">
+								<h4>Horário de Funcionamento</h4>
+							</div>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur facilis cumque amet suscipit odio.</p>
+
+							<ul class="iconlist mb-0">
+								<li><i class="icon-time color"></i> <strong>Terça a Sexta:</strong> 10:00 às 19:00</li>
+								<li><i class="icon-time color"></i> <strong>Sábado e Domingo:</strong> 9:00 às 00:00</li>
+								<li><i class="icon-time text-danger"></i> <strong>Segunda:</strong>Fechado</li>
+							</ul>
+						</div>
+
+						<div class="col-lg-6">
+							<div class="fancy-title title-border">
+								<h4>Galeria</h4>
+							</div>
+
+							<div class="masonry-thumbs grid-container grid-4 clearfix" data-lightbox="gallery" style="width: 100.3%;">
+								<a class="grid-item" href="images/landing/c1.jpg" data-lightbox="gallery-item"><img src="images/landing/c1.jpg" alt="Gallery Thumb 1" data-animate="zoomIn"></a>
+								<a class="grid-item" href="images/landing/c2.jpg" data-lightbox="gallery-item"><img src="images/landing/c2.jpg" alt="Gallery Thumb 2" data-animate="zoomIn" data-delay="100"></a>
+								<a class="grid-item" href="images/landing/c3.jpg" data-lightbox="gallery-item"><img src="images/landing/c3.jpg" alt="Gallery Thumb 3" data-animate="zoomIn" data-delay="200"></a>
+								<a class="grid-item" href="images/landing/c4.jpg" data-lightbox="gallery-item"><img src="images/landing/c4.jpg" alt="Gallery Thumb 4" data-animate="zoomIn" data-delay="300"></a>
+								<a class="grid-item" href="images/landing/c5.jpg" data-lightbox="gallery-item"><img src="images/landing/c5.jpg" alt="Gallery Thumb 5" data-animate="zoomIn" data-delay="400"></a>
+								<a class="grid-item" href="images/landing/c6.jpg" data-lightbox="gallery-item"><img src="images/landing/c6.jpg" alt="Gallery Thumb 6" data-animate="zoomIn" data-delay="500"></a>
+								<a class="grid-item" href="images/landing/c7.jpg" data-lightbox="gallery-item"><img src="images/landing/c7.jpg" alt="Gallery Thumb 7" data-animate="zoomIn" data-delay="600"></a>
+								<a class="grid-item" href="images/landing/c8.jpg" data-lightbox="gallery-item"><img src="images/landing/c8.jpg" alt="Gallery Thumb 8" data-animate="zoomIn" data-delay="700"></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
 				<div class="section bg-transparent mt-0 p-0 footer-stick">
 					<div class="container clearfix">
 
@@ -705,6 +745,9 @@
 
 					</div>
 				</div>
+
+				
+
 			</div>
 		</section><!-- #content end -->
 
