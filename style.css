@@ -5120,7 +5120,7 @@ body:not(.top-search-open) .top-search-parent .header-misc > *:not(#top-search) 
 		position: absolute;
 		width: 280px;
 		border: 1px solid #EEE;
-		border-top: 2px solid #1ABC9C;
+		border-top: 2px solid #005398;
 		top: calc( 100% + 20px );
 		right: -15px;
 		margin: -10000px 0 0;
@@ -17177,4 +17177,18 @@ backdrop-filter: blur(2.3px);
 
 .bg-login{
 	height: 100vh;
+}
+
+.img-login{
+	height: 25px !important;
+	width: 25px !important;
+}
+
+@media (min-width: 600px) {
+
+	.img-login{
+		height: 40px !important;
+		width: 40px !important;
+	}
+
 }
