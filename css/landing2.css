@@ -28,6 +28,7 @@
         font-size: 0.7em !important;
 		line-height: 1em !important;
 		letter-spacing: normal !important;
+		font-weight: bold !important;
     }
 	.slider-text-mob-2 {
         font-size: 1.2em !important;
@@ -35,14 +36,14 @@
 		letter-spacing: normal !important;
     }
 	.slider-text-mob-3 {
-        font-size: 0.6em !important;
+        font-size: 0.7em !important;
 		line-height: 1.0em !important;
 		letter-spacing: normal !important
     }
 
 	.slider-text-mob-button {
-		font-size: 1.4em !important;
-		line-height: 1.4em !important;
+		font-size: 2.4em !important;
+		line-height: 2.4em !important;
 		letter-spacing: normal !important
 	}
 

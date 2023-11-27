@@ -3358,7 +3358,7 @@ html[xmlns] .slider-wrap {
 @media (max-width: 991.98px) {
 
 	.sticky-header #header-wrap {
-		position: fixed;
+		position: sticky;
 		top: 0;
 		left: 0;
 		z-index: 299;
@@ -17204,5 +17204,5 @@ backdrop-filter: blur(2.3px);
 		}
 
 .botao-evento-principal:focus{
-	box-shadow: none !important;
+	box-shadow: none;
 }
