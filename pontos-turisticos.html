@@ -88,7 +88,7 @@
 
 		<!-- Header
 		============================================= -->
-		<header id="header" class="full-header header-size-sm bg-rblue sticky-top" data-sticky-shrink="false">
+		<header id="header" class="full-header header-size-sm bg-rblue" data-sticky-shrink="false">
 			<div id="header-wrap" class="bg-rblue">
 				<div class="container bg-rblue">
 					<div class="header-row justify-content-lg-between">
@@ -153,48 +153,50 @@
 			<div class="header-wrap-clone"></div>
 		</header><!-- #header end -->
 
-		<section id="slider" class="slider-element boxed-slider">
+		
+		
+		<section id="slider" class="slider-element h-auto p-0">
 
-			<div class="container clearfix">
+			<div class="m-0 p-0">
 
 				<div class="fslider" data-animation="fade">
 					<div class="flexslider">
 						<div class="slider-wrap">
 							<div class="slide" data-thumb="images/portal/chafariz.jpg">
-								<a href="#" class="d-block position-relative">
+								<a href="#1" class="d-block position-relative">
 									<img src="images/portal/chafariz.jpg" alt="Slide 5">
 									<div class="bg-overlay">
-										<div class="bg-overlay-content d-flex align-items-end justify-content-start">
+										<div class="bg-overlay-content d-flex align-items-end align-items-md-start justify-content-start">
 											<div class=" fw-light py-2 px-3 text-dark rounded bg-translucido ">Chafariz da Sorte</div>
 										</div>
 									</div>
 								</a>
 							</div>
 							<div class="slide" data-thumb="images/portal/montanha.jpg">
-								<a href="#" class="d-block position-relative">
+								<a href="#2" class="d-block position-relative">
 									<img src="images/portal/montanha.jpg" alt="Slide 5">
 									<div class="bg-overlay">
-										<div class="bg-overlay-content d-flex align-items-end justify-content-start">
+										<div class="bg-overlay-content d-flex align-items-end align-items-md-start justify-content-start">
 											<div class=" fw-light py-2 px-3 text-dark rounded bg-translucido ">Montanha da Lua</div>
 										</div>
 									</div>
 								</a>
 							</div>
 							<div class="slide" data-thumb="images/portal/sarzedo.jpg">
-								<a href="#" class="d-block position-relative">
+								<a href="#3" class="d-block position-relative">
 									<img src="images/portal/sarzedo.jpg" alt="Slide 5">
 									<div class="bg-overlay">
-										<div class="bg-overlay-content d-flex align-items-end justify-content-start">
+										<div class="bg-overlay-content d-flex align-items-end align-items-md-start justify-content-start">
 											<div class=" fw-light py-2 px-3 text-dark rounded bg-translucido ">Praça da Cidade</div>
 										</div>
 									</div>
 								</a>
 							</div>
 							<div class="slide" data-thumb="images/portal/cachoeira.jpg">
-								<a href="#" class="d-block position-relative">
+								<a href="#4" class="d-block position-relative">
 									<img src="images/portal/cachoeira.jpg" alt="Slide 5">
 									<div class="bg-overlay">
-										<div class="bg-overlay-content d-flex align-items-end justify-content-start">
+										<div class="bg-overlay-content d-flex align-items-end align-items-md-start justify-content-start">
 											<div class=" fw-light py-2 px-3 text-dark rounded bg-translucido ">Cachoeira Doce</div>
 										</div>
 									</div>
@@ -206,7 +208,9 @@
 
 			</div>
 
-		</section>
+		</section> 
+
+	
 
 	
 		<!-- Content
@@ -214,6 +218,7 @@
 		<section id="content">
 			<div class="content-wrap">
 				<div class="container clearfix">
+					
 
 					<h3>Pontos Turísticos de Sarzedo</h3>
 
@@ -224,24 +229,24 @@
 
 						<div class="col-md-6">
 							
-							<h5>Chafariz da Sorte</h5>
+							<h5 id="1">Chafariz da Sorte</h5>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sint quis sit! Debitis mollitia ipsam optio dignissimos, quibusdam adipisci excepturi officia quod soluta recusandae reprehenderit odio cum pariatur modi. Repudiandae!				
 							</div>
 
 						<div class="col-md-6">
-							<h5>Montanha da Lua</h5>
+							<h5 id="2">Montanha da Lua</h5>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos saepe laboriosam excepturi tempora fuga provident, eligendi delectus. Eius quos maxime quae fuga, nemo consequuntur molestias fugit natus incidunt laboriosam itaque?						
 						</div>
 
 						<div class="w-100"></div>
 
 						<div class="col-md-6">
-							<h5>Praça da Cidade</h5>
+							<h5 id="3">Praça da Cidade</h5>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, error. Vitae quidem eius eveniet numquam quam a magni impedit, sequi rerum obcaecati laborum, quo quod delectus! Facere quis natus tempora.
 						</div>
 
 						<div class="col-md-6">
-							<h5>Cachoeira Doce</h5>
+							<h5 id="4">Cachoeira Doce</h5>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, repellat? Sequi, consectetur non velit optio culpa reprehenderit reiciendis deserunt, amet quos nesciunt veniam maxime possimus, ea placeat hic autem ad!
 						</div>
 
@@ -333,6 +338,10 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/plugins.min.js"></script>
 	<script src="https://maps.google.com/maps/api/js?key=YOUR-API-KEY"></script>
+
+
+	<!-- JS para rolagem suave com clickem link para sessão da mesma página-->
+	<script src="js/smooth-scroll.js"></script>
 
 	<!-- Footer Scripts
 	============================================= -->

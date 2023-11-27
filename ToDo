@@ -18,17 +18,19 @@ X Ajustar os links para rolarem nas landings tbm
 
 X Não mostrar os links do menu na versão mobile.
 
-. Na página de login, trocar a forma para "tab", abas.
+X Na página de login, trocar a forma para "tab", abas.
 
 X Na notícia, retirar tópicos e colocar visualizações sem texto na parte esquerda superior
 
-. Na página de locais turísticos, espalhara s imagens por toda a tela e diminuir a altura
+X Na página de locais turísticos, espalhara as imagens por toda a tela e diminuir a altura
 
-. O header da página de pontos turísticos está funcionando. Usar pro index.
+X O header da página de pontos turísticos está funcionando. Usar pro index.
 
 . Limpar o projeto com os arquivos que não são usados.
 
-. Trazer o parallax da página de eventos para a página de Sarzedo
+X Trazer o parallax da página de eventos para a página de Sarzedo
+
+. Consertar bug do header descendo ao reiniciar a página no meio da navegação (acho que retirar a id header e retrabalhar o tamanho da imagem resolverá)
 
 Portal - Prazo Dia 27
 

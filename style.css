@@ -11354,7 +11354,7 @@ body:not(.device-touch) .social-icon i {
 
 .tab-nav.tab-nav2 li.ui-state-active a {
 	top: 0;
-	background-color: #1ABC9C;
+	background-color: #005398;
 	color: #FFF;
 }
 
@@ -17171,3 +17171,10 @@ backdrop-filter: blur(2.3px);
 
 }
 
+.slider-turistico{
+	max-height: 50% !important;
+}
+
+.bg-login{
+	height: 100vh;
+}
