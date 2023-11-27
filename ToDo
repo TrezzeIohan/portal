@@ -1,34 +1,40 @@
-X Fazer uma variação de página de login com uma pessoa logada (dropdown) (index-logado)
+X Fazer uma variação de página de login com uma pessoa logada (dropdown) (index-logado) ok
 
-X Fazer uma página do usuário para ele gerenciar seus dados
+X Fazer uma página do usuário para ele gerenciar seus dados ok
 
 . Colocar todos os links ligados às paginas de maneira correta (header e footer de todas as páginas,exceto as landings feitas. Falta fazer para as landings e os demais links denro das páginas, como a página de eventos ara o evento específico)
 
-X No catálogo colocar apenas os lojistas na versão mobile e colocar uma barrinha de pesquisa própria (pesquise lojistas)
+X No catálogo colocar apenas os lojistas na versão mobile e colocar uma barrinha de pesquisa própria (pesquise lojistas)ok
 
-X Tirar da header os dois logos na versão mobile
+X Tirar da header os dois logos na versão mobile ok
 
-X Diminuir a altura imagem do modal
+X Diminuir a altura imagem do modal ok
 
-X Aumentar texto do menu da landing para 1.2rem (aumentei para 1.0 rem, pois ficou melhor no responsivo)
+X Aumentar texto do menu da landing para 1.2rem (aumentei para 1.0 rem, pois ficou melhor no responsivo) ok
 
-X Ajustar os links para rolarem nas landings tbm
+X Ajustar os links para rolarem nas landings tbm ok
 
-X Não mostrar os links do menu na versão mobile.
+X Não mostrar os links do menu na versão mobile. ok
 
-X Na página de login, trocar a forma para "tab", abas.
+X Na página de login, trocar a forma para "tab", abas. ok
 
-X Na notícia, retirar tópicos e colocar visualizações sem texto na parte esquerda superior
+X Na notícia, retirar tópicos e colocar visualizações sem texto na parte esquerda superior ok
 
-X Na página de locais turísticos, espalhara as imagens por toda a tela e diminuir a altura
+X Na página de locais turísticos, espalhara as imagens por toda a tela e diminuir a altura 
 
-X O header da página de pontos turísticos está funcionando. Usar pro index.
+X O header da página de pontos turísticos está funcionando. Usar pro index. ok
 
 . Limpar o projeto com os arquivos que não são usados.
 
-X Trazer o parallax da página de eventos para a página de Sarzedo
+X Trazer o parallax da página de eventos para a página de Sarzedo ok
 
-. Consertar bug do header descendo ao reiniciar a página no meio da navegação (acho que retirar a id header e retrabalhar o tamanho da imagem resolverá)
+X Consertar bug do header descendo ao reiniciar a página no meio da navegação (acho que retirar a id header e retrabalhar o tamanho da imagem resolverá) ok
 
 Portal - Prazo Dia 27
 
+Colocar todos os links navegáveis !Mais importante
+Bug imagem perfil
+Aba de perfil, colocar id na aba
+Tirar acentos do arquivo catálogo
+Colocar a header do index para as demais (sarzedo ficou sem)
+Colocar a logo da site 13 na parte direita dos footers do portal e colocar a logo da site13 na footer das landing pages abaixo do "Copyrights"

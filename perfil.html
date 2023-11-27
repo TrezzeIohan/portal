@@ -57,41 +57,7 @@
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
-		<div class="modal-on-load" data-target="#myModal1"></div>
-
-		<!-- On Load Modal -->
-		<div class="modal1 mfp-hide subscribe-widget mx-auto" id="myModal1" style="max-width: 750px;">
-			<div class="row justify-content-center bg-white align-items-center " style="min-height: 380px;">
-				<div class="col-md-5 p-0">
-					<div class="modal-img" style="background: url('images/portal/natal.jpg') no-repeat center right; background-size: cover; "></div>
-				</div>
-				<div class="col-md-7 bg-white p-4">
-					<div class="heading-block border-bottom-0 mb-3">
-						<h3 class="font-secondary nott ">Promoção imperdível de Natal. <span class="text-danger">20%</span> de desconto em parceiros usando nosso cupom</h3>
-						
-					</div>
-					<div class="widget-subscribe-form-result"></div>
-					<form id="login-form" name="login-form" class="row mb-0" action="#" method="post">
-												<div class="col-6 form-group">
-													<label for="login-form-username" class="font-grey">Usuário:</label>
-													<input type="text" id="login-form-username" name="login-form-username" value="" class="form-control" />
-												</div>
-				
-												<div class="col-6 form-group">
-													<label for="login-form-password" class="font-grey">Senha:</label>
-													<input type="password" id="login-form-password" name="login-form-password" value="" class="form-control" />
-												</div>
-				
-												<div class="col-12 form-group">
-													<button class="button button-3d bg-rblue m-0" id="login-form-submit" name="login-form-submit" value="login">Login</button>
-													<a href="#" class="float-end font-blue pe-1">Esqueceu a Senha?</a>
-												</div>
-											</form>
-					<small class="mb-0 fst-italic text-black-50">*Nós somos contra Span e não enviaremos nada além do útil e necessário para você.</small>
-				</div>
-			</div>
-		</div>
-
+		
 
 		<!-- Login Modal -->
 		<div class="modal1 mfp-hide" id="modal-register">
@@ -115,19 +81,19 @@
 						</div>
 
 						<div class="col-12 mt-4">
-							<button class="button w-100 m-0 bg-rblue" id="login-form-submit" name="login-form-submit" value="login">Login</button>
+							<button class="button w-100 m-0 bg-rblue" id="login-form-submit" name="login-form-submit" value="login"><a href="index - logado.html">Login</a></button>
 						</div>
 					</form>
 				</div>
 				<div class="card-footer py-4 center">
-					<p class="mb-0">Ainda não tem uma conta? <a href="registrar.html" class="inscrever"><u>Inscrever</u></a></p>
+					<p class="mb-0">Ainda não tem uma conta? <a href="login.html" class="inscrever"><u>Inscrever</u></a></p>
 				</div>
 			</div>
 		</div>
 
 		<!-- Header
 		============================================= -->
-		<header id="header" class="full-header header-size-sm bg-rblue sticky-header" data-sticky-shrink="false" data-mobile-sticky="true">
+		<header id="header" class="full-header header-size-sm bg-rblue sticky-top" data-sticky-shrink="false" data-mobile-sticky="true">
 			<div id="header-wrap" class="bg-rblue">
 				<div class="container bg-rblue">
 					<div class="header-row justify-content-lg-between">
@@ -135,16 +101,26 @@
 						<!-- Logo
 						============================================= -->
 						<div id="logo" class="me-lg-4">
-							<a href="index.html" class="standard-logo logo-text d-flex align-items-center justify-content-center"><img src="images/portal/logo-portal.png" alt="Logo Portal" class="me-2 img-login">Portal de Sarzedo</a>							
+							<a href="index.html" class="standard-logo logo-text d-flex align-items-center justify-content-center"><img src="images/portal/logo-portal.png" alt="Logo Portal" class="me-2">Portal de Sarzedo</a>
+							
 						</div><!-- #logo end -->
 
 						<div class="header-misc">
 
-							<!-- Top Search
+							<!-- Top Cart
 							============================================= -->
-							<div id="top-account">
-								<a href="#modal-register" data-lightbox="inline" class="menu-link-sarzedo"><i class="icon-line2-user me-1 position-relative" style="top: 1px;"></i><span class="d-none d-sm-inline-block font-primary fw-medium">Login</span></a>
-							</div><!-- #top-search end -->
+							<div id="top-cart" class=" d-none d-sm-block">
+								<a href="#" id="top-cart-trigger"><img class="img-login rounded-circle me-1 me-md-2" src="images/login/perfil-foto.jpg" alt=""></a>
+								<div class="top-cart-content">
+									<div class="top-cart-title">
+										<h4>Minha Conta</h4>
+									</div>
+									<div class="top-cart-action">
+										
+										<a href="#" class="button button-3d button-small m-0 bg-rblue">Acessar</a>
+									</div>
+								</div>
+							</div><!-- #top-cart end -->
 
 							
 
@@ -153,6 +129,8 @@
 							<div id="top-search" class="header-misc-icon">
 								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
 							</div><!-- #top-search end -->
+
+							
 
 						</div>
 
@@ -177,9 +155,9 @@
 
 								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="lista-eventos.html"><div>Eventos</div></a>									
 								</li>
-
-								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="login.html"><div>Minha Conta</div></a>									
-								</li>					
+								
+								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="perfil.html"><div>Minha Conta</div></a>									
+								</li>
 							</ul>
 
 						</nav><!-- #primary-menu end -->
@@ -228,32 +206,34 @@
 										</ul>
 
 										<div class="tab-container">									
-											<div class="tab-content clearfix" id="tab-leiloes">
+											<div class="tab-content clearfix" id="descrição">
 
 												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium harum ea quo! Nulla fugiat earum, sed corporis amet iste non, id facilis dolorum, suscipit, deleniti ea. Nobis, temporibus magnam doloribus. Reprehenderit necessitatibus esse dolor tempora ea unde, itaque odit. Quos.</p>
 
 
 											</div>
 
-											<div class="tab-content clearfix row" id="tab-editar_dados">
+											<div class="tab-content clearfix row" id="editar-dados">
+
+												<h3>Deseja alterar seus dados?</h3>
 												<form id="register-form col-md-8" name="register-form" class="row" action="#" method="post">
 
 													<div class="col-md-6 form-group">
-														<label for="register-form-name">Nome</label>
+														<label for="register-form-name" class="text-dark">Nome</label>
 														<input type="text" id="register-form-name" name="register-form-name" value="" class="form-control">
 													</div>
 					
 					
 					
 													<div class="col-md-6 form-group">
-														<label for="register-form-surname">Sobrenome</label>
+														<label for="register-form-surname" class="text-dark">Sobrenome</label>
 														<input type="text" id="register-form-username" name="register-form-surname" value="" class="form-control">
 													</div>
 					
 					
 					
 													<div class="col-md-6 form-group">
-														<label for="register-form-email">E-mail</label>
+														<label for="register-form-email" class="text-dark">E-mail</label>
 														<input type="text" id="register-form-email" name="register-form-email" value="" class="form-control">
 													</div>
 					
@@ -261,7 +241,7 @@
 					
 					
 													<div class="col-md-6 form-group">
-														<label for="register-form-phone">Telefone</label>
+														<label for="register-form-phone" class="text-dark">Telefone</label>
 														<input type="text" id="register-form-phone" name="register-form-phone" value="" class="form-control">
 													</div>
 					
@@ -272,21 +252,21 @@
 					
 					
 													<div class="col-md-6 form-group">
-														<label for="register-form-password">Senha</label>
+														<label for="register-form-password" class="text-dark">Senha</label>
 														<input type="password" id="register-form-password" name="register-form-password" value="" class="form-control">
 													</div>
 					
 					
 					
 													<div class="col-md-6 form-group">
-														<label for="register-form-repassword">Confirme sua senha</label>
+														<label for="register-form-repassword" class="text-dark">Confirme sua senha</label>
 														<input type="password" id="register-form-repassword" name="register-form-repassword" value="" class="form-control">
 													</div>
 					
 					
 					
 													<div class="col-6 form-group">
-														<button class="btn btn-dark m-0" id="register-form-submit" name="register-form-submit" value="register">Alterar Dados</button>
+														<button class="btn btn-dark bg-rblue text-white m-0" id="register-form-submit" name="register-form-submit" value="register">Alterar Dados</button>
 													</div>
 					
 												</form>

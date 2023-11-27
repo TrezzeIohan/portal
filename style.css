@@ -17192,3 +17192,17 @@ backdrop-filter: blur(2.3px);
 	}
 
 }
+
+@media (min-width: 999px) {
+			.slider-wrap > .slide {
+				height: 50vh!important;
+			}
+
+			.slider-wrap > .slide img {
+				margin-top: -12.5vh!important;
+			}
+		}
+
+.botao-evento-principal:focus{
+	box-shadow: none !important;
+}
