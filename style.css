@@ -17206,3 +17206,7 @@ backdrop-filter: blur(2.3px);
 .botao-evento-principal:focus{
 	box-shadow: none;
 }
+
+.site13-img{
+	height: 50px;
+}
